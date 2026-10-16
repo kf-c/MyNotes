@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"335e008006010b65","type":"text","text":"USART1_IRQHandler()\n>`stm32f1xx_it.c`","x":-380,"y":-20,"width":240,"height":80},
+		{"id":"d36a75fd02107752","type":"text","text":"HAL_UART_IRQHandler()\n","x":-100,"y":-20,"width":240,"height":80},
+		{"id":"13ca74f7bb09da4d","x":180,"y":-20,"width":320,"height":80,"type":"text","text":"HAL_UART_RxCpltCallback（）\n```\n回调函数，用户编写\n```\n"},
+		{"id":"891d7ea78ea1583a","x":-680,"y":-10,"width":250,"height":60,"type":"text","text":"HAL库中断实现逻辑"}
+	],
+	"edges":[
+		{"id":"247d620b78dc5ceb","fromNode":"335e008006010b65","fromSide":"right","toNode":"d36a75fd02107752","toSide":"left"},
+		{"id":"a749ce7a2f634039","fromNode":"d36a75fd02107752","fromSide":"right","toNode":"13ca74f7bb09da4d","toSide":"left"},
+		{"id":"85f8a0b8b7d3c54d","fromNode":"891d7ea78ea1583a","fromSide":"right","toNode":"335e008006010b65","toSide":"left"}
+	]
+}

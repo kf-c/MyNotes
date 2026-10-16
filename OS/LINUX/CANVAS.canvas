@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"c8a14f6b632498cc","type":"text","text":"用户程序","x":-360,"y":-260,"width":180,"height":80},
+		{"id":"bf95898636ade54d","type":"text","text":"dev\n```\n设备文件，有自己的权限和统一接口;\n作为用户程序和驱动之间的安全中转站；\n一般在系统初始化时自动创建（依据设备树和boot）；\n```","x":-60,"y":-325,"width":320,"height":210},
+		{"id":"714e481a5539c422","x":-510,"y":-62,"width":300,"height":124,"type":"text","text":"设备树\n```\nls -l /boot/*.dtb\n```"},
+		{"id":"864bb601fc89831f","type":"text","text":"内存\n```\nls /proc/device-tree/\n//启动时，设备树被内存加载为虚拟文件系统，挂载在如上目录下\n```","x":-510,"y":140,"width":300,"height":160},
+		{"id":"3cfd79bfa178e1da","type":"text","text":"驱动程序；","x":0,"y":-40,"width":180,"height":80}
+	],
+	"edges":[
+		{"id":"7369d3b42d539448","fromNode":"c8a14f6b632498cc","fromSide":"right","toNode":"bf95898636ade54d","toSide":"left"},
+		{"id":"7277a25d308029f2","fromNode":"bf95898636ade54d","fromSide":"bottom","toNode":"3cfd79bfa178e1da","toSide":"top"},
+		{"id":"2409c459629b9cb2","fromNode":"714e481a5539c422","fromSide":"bottom","toNode":"864bb601fc89831f","toSide":"top"}
+	]
+}

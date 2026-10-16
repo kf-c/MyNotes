@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"b89b14176b122136","type":"text","text":"D:\\esp\\v5.5.5\\esp-idf\n(external tools kit)","x":80,"y":42,"width":220,"height":63},
+		{"id":"3ec02fc1d0cbfad9","type":"text","text":"esp32","x":-200,"y":-140,"width":180,"height":63},
+		{"id":"a14e6882c507679c","type":"text","text":"D:\\Espressif\n(SDK)","x":80,"y":-300,"width":220,"height":63},
+		{"id":"65c140c41b4f5563","type":"text","text":"- components    (wifi,bt,rtos...)\n- examples\n- tools                 (idf.py)\n- CMakeLists.txt","x":360,"y":-375,"width":420,"height":213},
+		{"id":"4894549791ecdd83","type":"text","text":"- xtensa-esp-elf   (esp32  cross compile tool)\n- riscv32-esp-elf  (riscv framework)\n- esp-clang\n- cmake\n- ninia                   (execute compile task)\n- openocd-esp32  (debug tool)\n- python","x":360,"y":-46,"width":420,"height":240},
+		{"id":"5b94d1ab27d9a1ca","type":"text","text":"idf.py\n ↓\ncmake\n ↓\nninja\n ↓\nxtensa-gcc","x":880,"y":-33,"width":420,"height":213}
+	],
+	"edges":[
+		{"id":"ac9e8c1963367162","fromNode":"3ec02fc1d0cbfad9","fromSide":"right","toNode":"a14e6882c507679c","toSide":"left"},
+		{"id":"cadf301a6ea30841","fromNode":"3ec02fc1d0cbfad9","fromSide":"right","toNode":"b89b14176b122136","toSide":"left"},
+		{"id":"4b91f041d113b64d","fromNode":"4894549791ecdd83","fromSide":"right","toNode":"5b94d1ab27d9a1ca","toSide":"left"},
+		{"id":"4bd7808a43f543fb","fromNode":"b89b14176b122136","fromSide":"right","toNode":"4894549791ecdd83","toSide":"left"},
+		{"id":"eb75732ab1ac65ea","fromNode":"a14e6882c507679c","fromSide":"right","toNode":"65c140c41b4f5563","toSide":"left"}
+	]
+}
