@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSP.md",
+                "file": "cubli log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DSP"
+              "title": "cubli log"
             }
           },
           {
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSP.md",
+                "file": "cubli log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSP.md",
+                "file": "cubli log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSP.md",
+                "file": "cubli log.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -213,8 +213,8 @@
   },
   "active": "a775b6e6195f90f5",
   "lastOpenFiles": [
-    "Obsidian help.md",
     "DSP.md",
+    "Obsidian help.md",
     "test——1017.md",
     "随笔.md",
     "cubli log.md",
