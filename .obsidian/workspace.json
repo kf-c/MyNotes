@@ -45,7 +45,8 @@
               "title": "新标签页"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSP.md",
+                "file": "Obsidian help.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSP.md",
+                "file": "Obsidian help.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -182,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSP.md",
+                "file": "Obsidian help.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -211,10 +212,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a775b6e6195f90f5",
+  "active": "b83a00f860599190",
   "lastOpenFiles": [
-    "Obsidian help.md",
     "DSP.md",
+    "Obsidian help.md",
     "test——1017.md",
     "随笔.md",
     "cubli log.md",
