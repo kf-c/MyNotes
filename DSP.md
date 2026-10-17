@@ -27,7 +27,7 @@ $$
 X_p(f) = \sum_{n=0}^{N-1}x[n]e^{-j2\pi fnT_s}
 $$
 
-对比 DFT 定义：$X(k)=\sum_{n=0}^{N-1}x[n]e^{-j2\pi \frac{kn}{N}}$
+对比 DFT 定义: $X(k)=\sum_{n=0}^{N-1}x[n]e^{-j2\pi \frac{kn}{N}}$
 
 可得 DFT 到实际频率的坐标映射为
 

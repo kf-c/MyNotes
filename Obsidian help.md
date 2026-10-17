@@ -39,7 +39,7 @@ quick switcher ： ctrl + o（搜索/切换/创建笔记）
 
 ===行内高亮====
 ### LETEX
-单公式 $M=r×F$的kai
+单公式 $M=r×F$的开头$前应留出空格，以适应github渲染
 ===$$默认居中公式：E = mc^2\tag{P001}$$
 
 ## 功能
