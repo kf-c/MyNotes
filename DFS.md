@@ -1,6 +1,17 @@
 ---
 date: 2026-10-16
 ---
+### DFT逼近FT
+
+对连续时间信号$x_c(t)$,其傅里叶变换（FT）为
+$$
+X_c(t) = \int_{-\infty}^{+\infty}x_c(t)e^{-j2\pi ft}\,dt
+$$
+对$x_c(t)$抽样，有
+$$
+x_p(t) = 
+$$
+
 ### DFT频率坐标的理解
 
 对实信号$x(t) = cos(\Omega t) = cos(2\pi ft)$,以频率fs抽样，有序列
