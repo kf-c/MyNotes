@@ -36,16 +36,35 @@
             }
           },
           {
-            "id": "4218fc0bbb106618",
+            "id": "e11d48bd0860489d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "未命名"
+            }
+          },
+          {
+            "id": "c69be2ace9a57bb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "database/CSMA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CSMA"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -120,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian help.md",
+                "file": "database/CSMA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian help.md",
+                "file": "database/CSMA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -182,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian help.md",
+                "file": "database/CSMA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -211,49 +230,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a775b6e6195f90f5",
+  "active": "c69be2ace9a57bb0",
   "lastOpenFiles": [
-    "DSP.md",
+    "Pasted image 20261018221111.png",
+    "Computer Network B.md",
+    "Pasted image 20261018220924.png",
+    "database/CSMA.md",
+    "Pasted image 20261018220508.png",
+    "Pasted image 20261018220636.png",
+    "Pasted image 20261018220640.png",
+    "language/CP/IIC未命名 1.md",
+    "未命名.md",
     "Obsidian help.md",
-    "随笔.md",
+    "未命名",
+    "database/Pasted image 20260706190703.png",
+    "database/embeded/Emebed.md",
+    "database/embeded/esp32.canvas",
+    "PCB四层板.md",
     "股.md",
-    "cubli log.md",
-    "test——1017.md",
-    "Physics.md",
-    "language/UV NOTE.md",
+    "PGA112 DEBUB.md",
     "CUBLI.md",
     "prompt.md",
     "未命名.base",
+    "test——1017.md",
+    "DSP.md",
+    "随笔.md",
+    "cubli log.md",
+    "Physics.md",
+    "language/UV NOTE.md",
     "daily/8.30.md",
-    "PCB四层板.md",
-    "PGA112 DEBUB.md",
     "experience/CS2.md",
     "language/HTML.md",
     "experience/CNC.md",
-    "database/Pasted image 20260706190703.png",
     "language/JS.md",
     "software/MSI Afterburner.md",
     "software/cline.canvas",
     "OS/FreeRTOS/sub_canvas.canvas",
     "OS/FreeRTOS/FreeRTOS移植.md",
     "OS/FreeRTOS/DEBUG.md",
-    "OS/FreeRTOS/FreeRTOS.md",
-    "OS/FreeRTOS/KEIL.md",
-    "OS/FreeRTOS/HAL.md",
-    "software/SW.md",
-    "experience/乒乓.md",
     "daily",
-    "OS/LINUX/LINUX.md",
     "OS/LINUX/CANVAS.canvas",
     "OS/LINUX",
     "database/未命名.base",
     "embeded/未命名.base",
     "OS",
-    "database/embeded/esp32.canvas",
     "language/CP",
     "language",
     "database/embeded",
-    "experience",
     "FreeRTOS_canvas.canvas",
     "FreeRTOS/FreeRTOS.canvas"
   ]
