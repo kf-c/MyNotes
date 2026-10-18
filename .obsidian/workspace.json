@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "随笔.md",
+                "file": "DSP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "随笔"
+              "title": "DSP"
             }
           },
           {
@@ -45,7 +45,8 @@
               "title": "新标签页"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随笔.md",
+                "file": "Obsidian help.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随笔.md",
+                "file": "Obsidian help.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -182,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随笔.md",
+                "file": "Obsidian help.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -211,14 +212,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a775b6e6195f90f5",
+  "active": "b83a00f860599190",
   "lastOpenFiles": [
+    "DSP.md",
+    "随笔.md",
     "股.md",
     "cubli log.md",
-    "DSP.md",
     "Obsidian help.md",
     "test——1017.md",
-    "随笔.md",
     "Physics.md",
     "language/UV NOTE.md",
     "CUBLI.md",
