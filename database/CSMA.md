@@ -2,7 +2,7 @@
 
 Carrier Sense Multiple Access with Collision Detection(载波监听多点接入/碰撞检测)
 
-![[Pasted image 20261018223820.png]]
+![[Pasted image 20261019100939.png|422]]
 
 #### CSMA/CD特性
 - 使用 CSMA/CD 协议的以太网不能进行全 双工通信而只能进行双向交替通信（半双 工通信）
