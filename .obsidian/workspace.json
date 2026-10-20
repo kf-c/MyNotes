@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cubli log.md",
+                "file": "DSP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cubli log"
+              "title": "DSP"
             }
           }
         ],
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cubli log.md",
+                "file": "DSP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -218,6 +218,7 @@
   },
   "active": "c69be2ace9a57bb0",
   "lastOpenFiles": [
+    "cubli log.md",
     "Obsidian help.md",
     "DSP.md",
     "随笔.md",
@@ -248,7 +249,6 @@
     "prompt.md",
     "未命名.base",
     "test——1017.md",
-    "cubli log.md",
     "daily/8.30.md",
     "experience/CS2.md",
     "experience/CNC.md",
