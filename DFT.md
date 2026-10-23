@@ -31,7 +31,7 @@ $$
 可得 DFT 到实际频率的坐标映射为
 
 $$
-\color{orange} f_k = \frac{kf_s}{N}
+\color{orange} f_k = \frac{kf_s}{N} \tag{1}
 $$
 
 #### 2. 坐标符号规范
@@ -39,10 +39,14 @@ $$
 对实信号 $x(t)=\cos(\Omega t)=\cos(2\pi ft)$，以频率 $f_s$ 抽样，有序列
 
 $$
-x(n)=\cos\left(2\pi \frac{f}{f_s}n\right)=\cos(2\pi Fn)=\cos(\omega n)
+x[n]=\cos\left(2\pi \frac{f}{f_s}n\right)=\cos(2\pi Fn)=\cos(\omega n)
+$$
+对应DFT为
+$$
+X(k) = \sum_{n=0}^{N-1}x[n]e^{-j\omega_k n}
 $$
 
-其中
+其中$\ciclearrowl$
 
 | *物理量* | *信号自身的频率* | *DFT 第 $k$ 个频率点* |
 | :---: | :-------: | :--------------: |
@@ -83,8 +87,9 @@ $$
 $$
 \boxed{
 X_T(f_k)\approx T_sX[k]
-}
+} \tag{2}
 $$
+即连续时间信号的傅里叶变换可以近似地用其DFT来表示。
 
 **2. 步骤 & 评价**
 
@@ -100,10 +105,10 @@ $$
 
 **1. 抽取**
 
-由 FS 伸缩变换性质，将采样率 $f_s$ 降低为 $1/D$，对应有
+由(2)
 
 $$
-X'(w) = \frac{1}{D}X\left(\frac{1}{D}w\right)
+X_T(w) = \frac{1}{D}X\left(\frac{1}{D}w\right)
 $$
 
 即在频谱上横向拉伸为原来的 $D$ 倍，纵向放缩为原来的 $1/D$。

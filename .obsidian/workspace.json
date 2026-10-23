@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Signal Processing.md",
+                "file": "DFT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Signal Processing"
+              "title": "DFT"
             }
           },
           {
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Signal Processing.md",
+                "file": "DFT.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -232,11 +232,11 @@
   },
   "active": "c69be2ace9a57bb0",
   "lastOpenFiles": [
+    "Signal Processing.md",
     "DFT.md",
     "FT.md",
     "随笔.md",
     "Computer Network B.md",
-    "Signal Processing.md",
     "database/Pasted image 20261021164424.png",
     "database/Pasted image 20261019100939.png",
     "cubli log.md",
