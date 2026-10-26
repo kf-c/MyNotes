@@ -8,61 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a775b6e6195f90f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian help.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Obsidian help"
-            }
-          },
-          {
-            "id": "b83a00f860599190",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian help.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Obsidian help"
-            }
-          },
-          {
             "id": "50dfdd736eeaee4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "通信原理.md",
+                "file": "DFT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "通信原理"
+              "title": "DFT"
             }
           },
           {
             "id": "9953ab392c900524",
             "type": "leaf",
             "state": {
-              "type": "drawio-file-view",
+              "type": "markdown",
               "state": {
-                "file": "database/drawio/network.drawio"
+                "file": "随笔.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "pencil-ruler",
-              "title": "network"
+              "icon": "lucide-file",
+              "title": "随笔"
+            }
+          },
+          {
+            "id": "ad019c09026310d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Signal Processing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Signal Processing"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "通信原理.md",
+                "file": "随笔.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -229,23 +217,29 @@
       "drawio-editor:Create new drawio diagram": false
     }
   },
-  "active": "50dfdd736eeaee4b",
+  "active": "9953ab392c900524",
   "lastOpenFiles": [
-    "Obsidian help.md",
-    "通信原理.md",
     "database/drawio/network.drawio",
-    "Computer Network B.md",
-    "database/Pasted image 20261021164424.png",
-    "随笔.md",
     "DFT.md",
+    "Signal Processing.md",
+    "随笔.md",
+    "通信原理.md",
+    "Obsidian help.md",
+    "database/embeded/stm32.md",
+    "database/embeded/Emebed.md",
+    "database/embeded/esp32.canvas",
+    "database/CSMA.md",
+    "database/IMAGE/Pasted image 20261019100939.png",
+    "database/IMAGE/Pasted image 20261021164424.png",
+    "database/IMAGE",
+    "未命名",
+    "prompt.md",
+    "cubli log.md",
+    "Computer Network B.md",
     "network.drawio.md",
     "FT.md",
-    "database/CSMA.md",
     "database/drawio",
-    "cubli log.md",
-    "Signal Processing.md",
-    "database/Pasted image 20261019100939.png",
-    "database/Pasted image 20261019102050.png",
+    "database/IMAGE/Pasted image 20261019102050.png",
     "Physics.md",
     "Pasted image 20261018223820.png",
     "Pasted image 20261018220924.png",
@@ -257,21 +251,15 @@
     "Pasted image 20261018220636.png",
     "Pasted image 20261018220640.png",
     "language/CP/IIC未命名 1.md",
-    "未命名",
     "database/Pasted image 20260706190703.png",
-    "database/embeded/Emebed.md",
-    "database/embeded/esp32.canvas",
     "PCB四层板.md",
     "股.md",
     "PGA112 DEBUB.md",
     "CUBLI.md",
-    "prompt.md",
     "未命名.base",
     "test——1017.md",
     "daily/8.30.md",
     "experience/CS2.md",
-    "experience/CNC.md",
-    "language/JS.md",
     "software/cline.canvas",
     "OS/FreeRTOS/sub_canvas.canvas",
     "daily",
@@ -280,7 +268,6 @@
     "database/未命名.base",
     "embeded/未命名.base",
     "OS",
-    "language/CP",
     "FreeRTOS_canvas.canvas",
     "FreeRTOS/FreeRTOS.canvas"
   ]
