@@ -1,0 +1,43 @@
+<mxfile host="embed.diagrams.net">
+  <diagram id="0" name="Page-1">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cnuiVFQis0r5A69T_OYj-3" edge="1" parent="1" source="cnuiVFQis0r5A69T_OYj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="cnuiVFQis0r5A69T_OYj-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnuiVFQis0r5A69T_OYj-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="host A" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cnuiVFQis0r5A69T_OYj-5" edge="1" parent="1" source="cnuiVFQis0r5A69T_OYj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="cnuiVFQis0r5A69T_OYj-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnuiVFQis0r5A69T_OYj-2" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="Ethenet Switch S1" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="_a4bjgU2I6LgBLtr13Oh-2" edge="1" parent="1" source="cnuiVFQis0r5A69T_OYj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="_a4bjgU2I6LgBLtr13Oh-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnuiVFQis0r5A69T_OYj-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="Router R1" vertex="1">
+          <mxGeometry height="60" width="120" x="780" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="_a4bjgU2I6LgBLtr13Oh-4" edge="1" parent="1" source="_a4bjgU2I6LgBLtr13Oh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="_a4bjgU2I6LgBLtr13Oh-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_a4bjgU2I6LgBLtr13Oh-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="Router R2" vertex="1">
+          <mxGeometry height="60" width="120" x="780" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="_a4bjgU2I6LgBLtr13Oh-6" edge="1" parent="1" source="_a4bjgU2I6LgBLtr13Oh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="_a4bjgU2I6LgBLtr13Oh-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_a4bjgU2I6LgBLtr13Oh-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="Ethernet Switch S2" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="_a4bjgU2I6LgBLtr13Oh-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="host B" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
