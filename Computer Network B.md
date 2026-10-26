@@ -48,6 +48,7 @@ ICMP: ip层用于检测网络问题
 |R2 → B|MAC-R2R|MAC-B|192.168.1.10|192.168.2.20|62|
 交换机本身不会重新封装以太网帧，只是分岔口的重定向，另外有FCS校验等功能；
 
+![[network establishment.drawio|100]]
 >[!tip]- 网卡
 >#### 适配器（网卡Network Interface Card）
 >功能：
@@ -79,3 +80,12 @@ ICMP: ip层用于检测网络问题
 >[!tip]- 主机如何加入网络
 >主机A连接到路由器R的WIFI后，R获得MAC_A并通过DHCP(Dynamic Host Configuation Protocol)协议为A动态分配IP_A，并提供自身的IP_R。然后A通过ARP广播获MAC_A.
 
+
+
+
+因特网两大路由选择协议：
+
+内部网关协议（IGP）：
+- RIP(Routing Information Protocol)，基于距离定义的路由选择（即跳数多少）
+
+外部网关协议(OGP)：

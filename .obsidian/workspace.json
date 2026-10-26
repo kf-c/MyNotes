@@ -48,6 +48,18 @@
               "icon": "lucide-file",
               "title": "Computer Network B"
             }
+          },
+          {
+            "id": "6254c6ddea119842",
+            "type": "leaf",
+            "state": {
+              "type": "drawio-file-view",
+              "state": {
+                "file": "database/drawio/network establishment.drawio"
+              },
+              "icon": "pencil-ruler",
+              "title": "network establishment"
+            }
           }
         ],
         "currentTab": 2
@@ -219,6 +231,8 @@
   },
   "active": "ad019c09026310d8",
   "lastOpenFiles": [
+    "database/drawio/network establishment.drawio",
+    "Computer Network B.md",
     "Signal Processing.md",
     "随笔.md",
     "database/drawio/network.drawio",
@@ -235,7 +249,6 @@
     "未命名",
     "prompt.md",
     "cubli log.md",
-    "Computer Network B.md",
     "network.drawio.md",
     "FT.md",
     "database/drawio",
@@ -267,7 +280,6 @@
     "OS/LINUX",
     "database/未命名.base",
     "embeded/未命名.base",
-    "OS",
     "FreeRTOS_canvas.canvas",
     "FreeRTOS/FreeRTOS.canvas"
   ]
