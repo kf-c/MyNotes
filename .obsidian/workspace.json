@@ -41,24 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Network B.md",
+                "file": "DFT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Computer Network B"
-            }
-          },
-          {
-            "id": "6254c6ddea119842",
-            "type": "leaf",
-            "state": {
-              "type": "drawio-file-view",
-              "state": {
-                "file": "database/drawio/network establishment.drawio"
-              },
-              "icon": "pencil-ruler",
-              "title": "network establishment"
+              "title": "DFT"
             }
           }
         ],
@@ -199,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Network B.md",
+                "file": "DFT.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -231,9 +219,9 @@
   },
   "active": "ad019c09026310d8",
   "lastOpenFiles": [
-    "database/drawio/network establishment.drawio",
-    "Computer Network B.md",
     "Signal Processing.md",
+    "Computer Network B.md",
+    "database/drawio/network establishment.drawio",
     "随笔.md",
     "database/drawio/network.drawio",
     "DFT.md",

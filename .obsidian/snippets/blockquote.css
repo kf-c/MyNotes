@@ -1,0 +1,19 @@
+/* 自定义 Markdown 普通引用块 */
+
+body {
+    /* 左侧竖线 */
+    --blockquote-border-color: #7896a5;
+    --blockquote-border-thickness: 3px;
+
+    /* 背景及文字 */
+    --blockquote-background-color: rgba(120, 150, 165, 0.12);
+    --blockquote-color: var(--text-normal);
+    --blockquote-font-style: normal;
+}
+
+/* 阅读模式下的额外样式 */
+.markdown-rendered blockquote {
+    border-radius: 0 6px 6px 0;
+    padding: 8px 14px;
+    margin: 12px 0;
+}

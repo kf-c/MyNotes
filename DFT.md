@@ -72,8 +72,10 @@ $$
 X_T(f)\approx T_s\sum_{n=0}^{N-1}x_c(nT_s)e^{-j2\pi f nT_s}
 $$
 
-代入刚才的 $f_k$：
 
+^[由数字角频率 $\omega = 2\pi fT_s$ ,有 $X_T(f)\approx T_s\sum_{n=0}^{N-1}x_c(nT_s)e^{-j2\pi \omega n}$ , 即DTFT]
+
+代入刚才的 $f_k$：
 $$
 \begin{aligned}
 X_T(f_k)
@@ -90,7 +92,7 @@ $$
 X_T(f_k)\approx T_sX[k]
 } \tag{2}
 $$
-即连续时间信号的傅里叶变换可以近似地用其DFT来表示。
+>即连续时间信号的傅里叶变换可以近似地用其DFT来表示。
 
 **2. 步骤 & 评价**
 
