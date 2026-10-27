@@ -89,3 +89,6 @@ ICMP: ip层用于检测网络问题
 - RIP(Routing Information Protocol)，基于距离定义的路由选择（即跳数多少）
 
 外部网关协议(OGP)：
+
+$\Varphi$
+
