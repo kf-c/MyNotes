@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DFT.md",
+                "file": "随笔.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DFT"
+              "title": "随笔"
             }
           }
         ],
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DFT.md",
+                "file": "随笔.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -219,8 +219,8 @@
   },
   "active": "ad019c09026310d8",
   "lastOpenFiles": [
-    "Signal Processing.md",
     "DFT.md",
+    "Signal Processing.md",
     "Computer Network B.md",
     "Physics.md",
     "Obsidian help.md",
