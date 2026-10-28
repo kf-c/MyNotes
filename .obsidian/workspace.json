@@ -27,28 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "随笔.md",
+                "file": "FT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "随笔"
+              "title": "FT"
             }
           },
           {
             "id": "e8b04282aa297f5b",
             "type": "leaf",
             "state": {
-              "type": "drawio-file-view",
+              "type": "markdown",
               "state": {
-                "file": "database/drawio/Untitled Diagram 1793170726817.drawio"
+                "file": "FT.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "pencil-ruler",
-              "title": "Untitled Diagram 1793170726817"
+              "icon": "lucide-file",
+              "title": "FT"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "database/drawio/Untitled Diagram 1793170726817.drawio",
+                "file": "FT.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -215,17 +217,17 @@
       "drawio-editor:Create new drawio diagram": false
     }
   },
-  "active": "e8b04282aa297f5b",
+  "active": "9953ab392c900524",
   "lastOpenFiles": [
     "随笔.md",
+    "FT.md",
+    "Obsidian help.md",
     "database/drawio/Untitled Diagram 1793170726817.drawio",
     "database/drawio/network.drawio",
     "DFT.md",
     "Signal Processing.md",
     "Computer Network B.md",
     "Physics.md",
-    "Obsidian help.md",
-    "FT.md",
     "通信原理.md",
     "database/drawio/network establishment.drawio",
     "database/embeded/stm32.md",
