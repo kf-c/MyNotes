@@ -75,7 +75,7 @@ $$
 
 >由数字角频率 $\omega = 2\pi fT_s$ ,有 $X_T(f)\approx T_s\sum_{n=0}^{N-1}x_c(nT_s)e^{-j2\pi \omega n}$ , 即DTFT格式
 
-代入刚才的 $f_k$：
+代入  $f_k = k\frac{f_s}{N}$:
 $$
 \begin{aligned}
 X_T(f_k)
