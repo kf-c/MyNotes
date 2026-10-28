@@ -1,0 +1,10 @@
+{
+  "id": "math-paste-bridge",
+  "name": "Math Paste Bridge",
+  "version": "1.0.6",
+  "minAppVersion": "1.1.0",
+  "description": "Convert pasted LaTeX delimiters and recover exact math source from rich text while preserving Markdown formatting.",
+  "author": "hlyang1992",
+  "isDesktopOnly": false,
+  "authorUrl": "https://github.com/hlyang1992"
+}

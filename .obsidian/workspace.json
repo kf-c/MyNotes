@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DFT.md",
+                "file": "language/UV NOTE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DFT"
+              "title": "UV NOTE"
             }
           },
           {
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DFT.md",
+                "file": "language/UV NOTE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -202,6 +202,8 @@
   },
   "active": "50dfdd736eeaee4b",
   "lastOpenFiles": [
+    "DFT.md",
+    "FT.md",
     "database/drawio/Untitled Diagram 1793170726817.drawio",
     "database/drawio/network establishment.drawio",
     "database/drawio/network.drawio",
@@ -213,9 +215,7 @@
     "通信原理.md",
     "Signal Processing.md",
     "Computer Network B.md",
-    "DFT.md",
     "随笔.md",
-    "FT.md",
     "database/embeded/stm32.md",
     "database/embeded/Emebed.md",
     "database/embeded/esp32.canvas",
