@@ -25,14 +25,12 @@
             "id": "9953ab392c900524",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "drawio-file-view",
               "state": {
-                "file": "FT.md",
-                "mode": "source",
-                "source": false
+                "file": "database/drawio/Untitled Diagram 1793170726817.drawio"
               },
-              "icon": "lucide-file",
-              "title": "FT"
+              "icon": "pencil-ruler",
+              "title": "Untitled Diagram 1793170726817"
             }
           },
           {
@@ -187,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FT.md",
+                "file": "database/drawio/Untitled Diagram 1793170726817.drawio",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -219,30 +217,30 @@
   },
   "active": "9953ab392c900524",
   "lastOpenFiles": [
-    "随笔.md",
-    "FT.md",
-    "Obsidian help.md",
-    "database/drawio/Untitled Diagram 1793170726817.drawio",
     "database/drawio/network.drawio",
-    "DFT.md",
+    "database/drawio/network establishment.drawio",
+    "database/drawio/Untitled Diagram 1793170726817.drawio",
+    "database/IMAGE/Pasted image 20261019102050.png",
+    "database/IMAGE/Pasted image 20261021164424.png",
+    "Physics.md",
+    "cubli log.md",
+    "Obsidian help.md",
+    "通信原理.md",
     "Signal Processing.md",
     "Computer Network B.md",
-    "Physics.md",
-    "通信原理.md",
-    "database/drawio/network establishment.drawio",
+    "DFT.md",
+    "随笔.md",
+    "FT.md",
     "database/embeded/stm32.md",
     "database/embeded/Emebed.md",
     "database/embeded/esp32.canvas",
     "database/CSMA.md",
     "database/IMAGE/Pasted image 20261019100939.png",
-    "database/IMAGE/Pasted image 20261021164424.png",
     "database/IMAGE",
     "未命名",
     "prompt.md",
-    "cubli log.md",
     "network.drawio.md",
     "database/drawio",
-    "database/IMAGE/Pasted image 20261019102050.png",
     "Pasted image 20261018223820.png",
     "Pasted image 20261018220924.png",
     "Pasted image 20261018221111.png",
