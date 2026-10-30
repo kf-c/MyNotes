@@ -62,20 +62,24 @@ $$
 **1. 过程**
 
 设接收端收到连续信号 $x_c(t)$,其频谱为0~fs/2, 以频率fs无穷采样，设 $x[n] = x_c(nT_s)$，有
->由 $x_s(t) = x(t)p(t)$，在频域上X_s(f)为X_c(f)的fs周期延拓
+>由 $x_S(t) = x_c(t)p(t)$，在频域上X_S(f)为X_c(f)的fs周期延拓
 > $NT_s$ 的时间窗，对应在频域卷积，导致频谱泄露，这发生在DTFT过程之前。
 
 $$
-X_s(f)=\sum_{-\infty}^{+\infty}x[n]e^{-j2\pi fnT_s} = X_d(wf_s)
+X_S(f)=\sum_{-\infty}^{+\infty}x[n]e^{-j2\pi fnT_s} = X_D(e^{jw})
 $$
-实际过程中，取有限N点采样，即对 $x_s(t)$ 乘以时间窗 $rect(\dfrac{t}{\tau})$，对应上式卷积RECT(f),
-用间隔 $T_s$ 的左端点矩形求积公式近似这个积分：
->近似影响：~~
+>这里  $w = \Omega T_s$
+
+实际过程中，取有限N点采样，即对 $x_s(t)$ 乘以时间窗 $rect(\dfrac{t}{\tau})$，对应在频域上，即上式卷积RECT(f)，有
 $$
-X_T(f)\approx T_s\sum_{n=0}^{N-1}x_c(nT_s)e^{-j2\pi f nT_s}
+X_s(f)=\sum_{0}^{N-1}x[n]e^{-j2\pi fnT_s} = X_d(e^{jw})
 $$
 
->由数字角频率 $\omega = 2\pi fT_s$ ,有 $X_T(f)\approx T_s\sum_{n=0}^{N-1}x_c(nT_s)e^{-j2\pi \omega n}$ , 即DTFT格式
+由于计算机无法处理连续谱，因此仅能从 $X_d$ 中抽取有限谱线观察，有
+$$
+X(k) = X_d(e^{j\frac{2\pi k}{N}}) = \sum_{n=0}^{N-1}x[n]e^{-j2\pi kn/N}
+$$
+>这里仅抽取X_d的一个周期，对应在时域上由离散谱变为连续谱，抵消了抽样过程的
 
 代入  $f_k = k\frac{f_s}{N}$:
 $$
