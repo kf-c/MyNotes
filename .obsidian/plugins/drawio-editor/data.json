@@ -1,5 +1,5 @@
 {
-  "drawioMode": "online",
+  "drawioMode": "offline",
   "customDrawioUrl": "https://draw.io",
   "serverPortMin": 3000,
   "serverPortMax": 3999,

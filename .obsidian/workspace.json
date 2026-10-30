@@ -11,6 +11,18 @@
             "id": "8afb355781cef6b9",
             "type": "leaf",
             "state": {
+              "type": "drawio-file-view",
+              "state": {
+                "file": "database/drawio/Untitled Diagram 1793170726817.drawio"
+              },
+              "icon": "pencil-ruler",
+              "title": "Untitled Diagram 1793170726817"
+            }
+          },
+          {
+            "id": "02cddcb692f02f4a",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "FT.md",
@@ -22,19 +34,20 @@
             }
           },
           {
-            "id": "c884de68bcf4c2df",
+            "id": "2d0617a0d8bc1f2d",
             "type": "leaf",
             "state": {
-              "type": "drawio-file-view",
+              "type": "markdown",
               "state": {
-                "file": "database/drawio/Untitled Diagram 1793170726817.drawio"
+                "file": "DFT.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "pencil-ruler",
-              "title": "Untitled Diagram 1793170726817"
+              "icon": "lucide-file",
+              "title": "DFT"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,20 +214,20 @@
       "drawio-editor:Create new drawio diagram": false
     }
   },
-  "active": "c884de68bcf4c2df",
+  "active": "8afb355781cef6b9",
   "lastOpenFiles": [
-    "database/drawio/network.drawio",
-    "database/drawio/Untitled Diagram 1793170726817.drawio",
     "FT.md",
+    "DFT.md",
+    "database/drawio/Untitled Diagram 1793170726817.drawio",
+    "database/IMAGE/Pasted image 20261021164424.png",
+    "database/drawio/network.drawio",
     "Computer Network B.md",
     "随笔.md",
-    "DFT.md",
     "Signal Processing.md",
     "database/drawio/network establishment.drawio",
     "experience/CS2.md",
     "language/UV NOTE.md",
     "database/IMAGE/Pasted image 20261019102050.png",
-    "database/IMAGE/Pasted image 20261021164424.png",
     "Physics.md",
     "cubli log.md",
     "Obsidian help.md",

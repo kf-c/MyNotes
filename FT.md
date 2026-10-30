@@ -8,6 +8,7 @@ $$
   1.  $\delta(t) \xrightarrow{FT} 1$
   2.  $1\xlongrightarrow{FT}2\pi\delta (w)$ 
 >$$
+\color{orange}
   \int_{-\infty}^{+\infty} e^{-j\omega t}\,dt 
   = \lim_{T \to \infty}T\dfrac{2\sin(\omega T)}{\omega T} 
   = 2\lim_{T \to \infty}Tsinc(fT)
