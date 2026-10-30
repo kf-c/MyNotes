@@ -11,12 +11,14 @@
             "id": "8afb355781cef6b9",
             "type": "leaf",
             "state": {
-              "type": "drawio-file-view",
+              "type": "markdown",
               "state": {
-                "file": "database/drawio/Untitled Diagram 1793170726817.drawio"
+                "file": "FT.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "pencil-ruler",
-              "title": "Untitled Diagram 1793170726817"
+              "icon": "lucide-file",
+              "title": "FT"
             }
           },
           {
@@ -184,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "database/drawio/Untitled Diagram 1793170726817.drawio",
+                "file": "FT.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -216,9 +218,9 @@
   },
   "active": "8afb355781cef6b9",
   "lastOpenFiles": [
-    "FT.md",
     "DFT.md",
     "database/drawio/Untitled Diagram 1793170726817.drawio",
+    "FT.md",
     "database/IMAGE/Pasted image 20261021164424.png",
     "database/drawio/network.drawio",
     "Computer Network B.md",
