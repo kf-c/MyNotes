@@ -126,16 +126,105 @@ DFT逼近的FT有且仅有一下缺点：
 
 ### 抽取 / 插值
 
-**1. 抽取**
+#### 1. 抽取
+$$
+y(m) = x(Mn)\\\\
 
-由(2)
+Y(\omega)
+=\sum_{r=0}^{M-1}G(\omega-2\pi r)
+=\frac1M\sum_{r=0}^{M-1}
+X\left(\frac{\omega-2\pi r}{M}\right)
 
 $$
-X_T(w) = \frac{1}{D}X\left(\frac{1}{D}w\right)
+
+$$
+x[n]\ \xrightarrow{\text{限制带宽至 }|\omega|<\pi/M}
+v[n]\ \xrightarrow{\text{每 }M\text{ 点取一个}}
+y[m].
 $$
 
-即在频谱上横向拉伸为原来的 $D$ 倍，纵向放缩为原来的 $1/D$。
+>取出一个周期 → 横向拉伸 $M$ 倍、纵向乘 $1/M$ → 每隔 $2\pi$ 复制并相加。
 
-**2. 插值**
+#### 2. 插值
 
-*?*
+定义
+
+$$
+u[m]=
+\begin{cases}
+x[n],&m=Ln,\\
+0,&\text{其他位置}.
+\end{cases}
+$$
+有
+
+$$
+\begin{aligned}
+U(e^{j\omega})
+&=\sum_m u[m]e^{-j\omega m}\\
+&=\sum_n x[n]e^{-j\omega Ln}\\
+&=X(e^{jL\omega}).
+\end{aligned}
+$$
+完整的 $L$ 倍插值，还要对插零结果进行低通滤波。
+
+设
+
+$$
+y[m]=u[m]*h[m],
+$$
+
+则
+
+$$
+Y(e^{j\omega})
+=H(e^{j\omega})U(e^{j\omega})
+=H(e^{j\omega})X(e^{jL\omega}).
+$$
+
+理想插值滤波器在主周期内为
+
+$$
+H(e^{j\omega})=
+\begin{cases}
+L,&|\omega|<\pi/L,\\
+0,&\pi/L<|\omega|\le\pi.
+\end{cases}
+$$
+
+所以最终：
+
+$$
+\boxed{
+Y(e^{j\omega})=
+\begin{cases}
+L\,X(e^{jL\omega}),&|\omega|<\pi/L,\\
+0,&\pi/L<|\omega|\le\pi.
+\end{cases}
+}
+$$
+
+再以 $2\pi$ 为周期延拓。
+
+也就是说：
+
+1. 插零使原频谱压缩到原来的 $1/L$，同时产生镜像；
+2. 低通滤波只保留中央的一份；
+3. 通带增益 $L$ 保证插值后的样本幅度正确。
+
+这个滤波器正好对应上一条中的 sinc。通过逆 DTFT：
+
+$$
+\begin{aligned}
+h[m]
+&=\frac{1}{2\pi}
+\int_{-\pi/L}^{\pi/L}L e^{j\omega m}\,d\omega\\
+&=\operatorname{sinc}\left(\frac{m}{L}\right).
+\end{aligned}
+$$
+
+|操作|时域|DTFT 关系|
+|---|---|---|
+|$M$ 倍直接抽取|$y[m]=x[Mm]$|$\displaystyle Y(e^{j\omega})=\frac1M\sum_{r=0}^{M-1}X(e^{j(\omega-2\pi r)/M})$|
+|$L$ 倍插零|$u[Ln]=x[n]$，其他为零|$\displaystyle U(e^{j\omega})=X(e^{jL\omega})$|
+|$L$ 倍完整插值|$y=u*h$|$\displaystyle Y(e^{j\omega})=H(e^{j\omega})X(e^{jL\omega})$|
