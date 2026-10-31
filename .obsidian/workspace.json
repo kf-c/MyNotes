@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DFT.md",
+                "file": "随笔.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -235,12 +235,12 @@
       "drawio-editor:Create new drawio diagram": false
     }
   },
-  "active": "2d0617a0d8bc1f2d",
+  "active": "bcd8017873dc1d72",
   "lastOpenFiles": [
-    "FT.md",
-    "随笔.md",
     "DFT.md",
+    "随笔.md",
     "database/drawio/Sample.drawio",
+    "FT.md",
     "database/IMAGE/Pasted image 20261021164424.png",
     "database/drawio/network.drawio",
     "Computer Network B.md",

@@ -71,17 +71,38 @@ $$
 
 实际过程中，取有限N点采样，即对 $x_s(t)$ 乘以时间窗 $rect(\dfrac{t}{\tau})$，对应在频域上，即上式卷积 $RECT(\Omega)$，有
 $$
-X_S(\Omega)=\sum_{0}^{N-1}x[n]e^{-j\Omega nT_s} = X_D(e^{jw})
+X_s(\Omega)=\sum_{0}^{N-1}x[n]e^{-j\Omega nT_s} = X_d(e^{jw})
 $$
 
 由于计算机无法处理连续谱，因此仅能从 $X_d$ 中抽取有限谱线观察，有
 $$
 X(k) = X_d(e^{j\frac{2\pi k}{N}}) = \sum_{n=0}^{N-1}x[n]e^{-j2\pi kn/N}
 $$
-这里细分为两个操作，一是X_d的单周期截取，对应在时域上由离散谱x_s变为连续谱x_c；二是N点抽取，对应在时域上x[n]以N为周期延拓。
->这里的抽取点数不小于采样点数均可
 
->[!tip]+
+>[!quote]+ $X_d\longrightarrow x_c$
+> - 法一：
+> $X_d$的一个周期对应的是$x_c(t)$的频谱（Ts倍纵向缩放），直接取单周期通过IFT恢复$x_c$，有(这里用w代替 $\Omega$ 积分，因而没有乘以系数Ts)
+> $$
+>  \widetilde x(t)=\frac1{2\pi}\int_{-\pi}^{\pi}
+>  X_d(e^{j\omega})e^{j\omega t}\,d\omega,
+>  \qquad t\in\mathbb R,
+>  $$
+> 代入得，
+> $$
+>  \widetilde x(\tau)=\sum_n x[n]\operatorname{sinc}(\tau-n),
+>  \qquad
+>  \operatorname{sinc}(u)=\frac{\sin(\pi u)}{\pi u}.
+>  $$
+>  上式即理想限带的内插公式，这里的 $\tau$ 为归一化时间，$\tau = t/T_s$
+>  - 法二：
+>  在频域上只取 $X_d$ 单周期，即乘以H(jw),对应在时域上卷积h(t）即得到x_c,结果同上，有
+>  $$
+>  h(\tau) = sinc(\tau) 
+>  $$
+>  
+>  
+
+>[!quote]+
 >1.时域和频域的统一性
 >时域和频域是信号的一体两面，二者均包含信号的全部必要信息，换言之，在一个域的改变必然提现到另一个域。
 > 2.由 
@@ -89,16 +110,6 @@ $$
 > X_s \approx \dfrac{1}{T_s}\sum_{m=0}^{N1}X_c(\Omega+m\Omega_s),
 > X_c(f_k) \approx T_sX(k)
 > $$
-
-
-
-
-
-
-
-
-
-
 
 
 **2.总结
