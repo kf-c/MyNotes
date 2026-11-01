@@ -223,8 +223,14 @@ h[m]
 \end{aligned}
 $$
 
-|操作|时域|DTFT 关系|
-|---|---|---|
-|$M$ 倍直接抽取|$y[m]=x[Mm]$|$\displaystyle Y(e^{j\omega})=\frac1M\sum_{r=0}^{M-1}X(e^{j(\omega-2\pi r)/M})$|
-|$L$ 倍插零|$u[Ln]=x[n]$，其他为零|$\displaystyle U(e^{j\omega})=X(e^{jL\omega})$|
-|$L$ 倍完整插值|$y=u*h$|$\displaystyle Y(e^{j\omega})=H(e^{j\omega})X(e^{jL\omega})$|
+| 操作        | 时域                | DTFT 关系                                                                         |
+| --------- | ----------------- | ------------------------------------------------------------------------------- |
+| $M$ 倍直接抽取 | $y[m]=x[Mm]$      | $\displaystyle Y(e^{j\omega})=\frac1M\sum_{r=0}^{M-1}X(e^{j(\omega-2\pi r)/M})$ |
+| $L$ 倍插零   | $u[Ln]=x[n]$，其他为零 | $\displaystyle U(e^{j\omega})=X(e^{jL\omega})$                                  |
+| $L$ 倍完整插值 | $y=u*h$           | $\displaystyle Y(e^{j\omega})=H(e^{j\omega})X(e^{jL\omega})$                    |
+#### 3.典型函数
+
+对
+$$
+x(n) = \dfrac{sin(w_1n)}{\pi n}\xrightarrow{DTFT}
+$$
