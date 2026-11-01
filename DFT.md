@@ -230,7 +230,21 @@ $$
 | $L$ 倍完整插值 | $y=u*h$           | $\displaystyle Y(e^{j\omega})=H(e^{j\omega})X(e^{jL\omega})$                    |
 #### 3.典型函数
 
-对
+
 $$
-x(n) = \dfrac{sin(w_1n)}{\pi n}\xrightarrow{DTFT}
+x(n) = \dfrac{sin(w_1n)}{\pi n}\xrightarrow{DTFT}g_{2w_1}(w)
 $$
+>[!quote]+ sinc函数
+>$$
+\mathrm{sinc}(at)
+\;\xleftrightarrow{\mathrm{FT}}\;
+\frac1{|a|}\mathrm{rect}\!\left(\frac{\omega}{2\pi|a|}\right)\\
+sinc(An)\xrightarrow{DTFT}
+=\frac1{|A|}
+\sum_{k=-\infty}^{\infty}
+\mathrm{rect}\!\left(
+\frac{\omega-2\pi k}{2\pi|A|}
+\right)
+$$
+
+
