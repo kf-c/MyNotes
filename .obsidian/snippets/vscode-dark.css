@@ -1,0 +1,14 @@
+
+.theme-dark {
+    /* 主编辑区背景 */
+    --background-primary: #1e1e1e;
+
+    /* 侧边栏背景 */
+    --background-secondary: #252526;
+
+    /* 文字颜色 */
+    --text-normal: #d4d4d4;
+
+    /* 次要文字 */
+    --text-muted: #858585;
+}

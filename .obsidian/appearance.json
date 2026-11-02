@@ -1,5 +1,7 @@
 {
   "enabledCssSnippets": [
-    "blockquote"
-  ]
+    "blockquote",
+    "vscode-dark"
+  ],
+  "theme": "system"
 }
