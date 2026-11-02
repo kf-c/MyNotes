@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "通信原理.md",
+                "file": "Computer Network B.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "通信原理"
+              "title": "Computer Network B"
             }
           }
         ]
@@ -191,12 +191,14 @@
   },
   "active": "541f970f79240499",
   "lastOpenFiles": [
+    "通信原理.md",
+    "database/IMAGE/IMG_20261102_155036.jpg",
+    "database/IMAGE/IMG_20261102_154702.jpg",
     "database/IMAGE/IMG20261102150852.jpg",
     "DFT.md",
     "随笔.md",
     "database/IMAGE/IMG_20261102_151226.jpg",
     "database/IMAGE/Pasted image 20261021164424.png",
-    "通信原理.md",
     "database/drawio/network.drawio",
     "database/drawio/Sample.drawio",
     "database/IMAGE/Pasted image 20261019100939.png",
@@ -224,9 +226,6 @@
     "Pasted image 20261018221111.png",
     "language/HTML.md",
     "language/CP/MQTT.md",
-    "Pasted image 20261018220508.png",
-    "Pasted image 20261018220636.png",
-    "Pasted image 20261018220640.png",
     "language/CP/IIC未命名 1.md",
     "PCB四层板.md",
     "股.md",
