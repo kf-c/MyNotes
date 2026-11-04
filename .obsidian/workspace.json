@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "b8dec6fe82ee3fa1",
+            "type": "leaf",
+            "state": {
+              "type": "drawio-file-view",
+              "state": {
+                "file": "database/drawio/Untitled Diagram 1793790648828.drawio"
+              },
+              "icon": "pencil-ruler",
+              "title": "Untitled Diagram 1793790648828"
+            }
+          },
+          {
             "id": "dd60eecc7f5a4acf",
             "type": "leaf",
             "state": {
@@ -49,8 +61,7 @@
               "title": "Computer Network B"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,13 +229,16 @@
       "drawio-editor:Create new drawio diagram": false
     }
   },
-  "active": "dd60eecc7f5a4acf",
+  "active": "541f970f79240499",
   "lastOpenFiles": [
+    "database/IMAGE/Pasted image 20261104194005.png",
+    "database/drawio/Untitled Diagram 1793790648828.drawio",
+    "通信原理.md",
+    "随机信号分析.md",
+    "未命名.md",
     "Computer Network B.md",
     "DFT.md",
-    "通信原理.md",
     "Signal Processing.md",
-    "随机信号分析.md",
     "FT.md",
     "Obsidian help.md",
     "database/IMAGE/IMG_20261102_155036.jpg",
@@ -262,14 +276,11 @@
     "PGA112 DEBUB.md",
     "CUBLI.md",
     "未命名.base",
-    "test——1017.md",
-    "daily/8.30.md",
     "software/cline.canvas",
     "OS/FreeRTOS/sub_canvas.canvas",
     "daily",
     "OS/LINUX/CANVAS.canvas",
     "OS/LINUX",
-    "database/未命名.base",
     "FreeRTOS_canvas.canvas",
     "FreeRTOS/FreeRTOS.canvas"
   ]
