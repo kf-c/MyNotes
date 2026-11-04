@@ -13,8 +13,12 @@ $$
   = \lim_{T \to \infty}T\dfrac{2\sin(\omega T)}{\omega T} 
   = 2\lim_{T \to \infty}Tsinc(fT)
 $$
-3.  频移特性: $e^{-j\omega_0 t}f(t) \xrightarrow{FT} F(\omega + \omega_0)$
-4. 
+- **characteristics**
+1. 线性性 
+2. 频移特性:  $e^{-j\omega_0 t}f(t) \xrightarrow{FT} F(\omega + \omega_0)$
+3. 时移特性：$f(t-t_0) \xrightarrow{FT}e^{-jwt_0}F(w)$
+4. 对称性
+5. 
 
 
 
