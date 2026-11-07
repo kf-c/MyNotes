@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "log/8.30.md",
+                "file": "DFT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8.30"
+              "title": "DFT"
             }
           }
         ]
@@ -189,14 +189,15 @@
       "drawio-editor:Create new drawio diagram": false
     }
   },
-  "active": "0e341745ad22da1f",
+  "active": "541f970f79240499",
   "lastOpenFiles": [
     "Computer Network B.md",
+    "FT.md",
+    "log/codex log.md",
     "log/routine.md",
     "Obsidian help.md",
     "cubli log.md",
     "随机信号分析.md",
-    "log/codex log.md",
     "database/drawio/Untitled Diagram 1793790648828.drawio",
     "log",
     "log/8.30.md",
@@ -205,7 +206,6 @@
     "DFT.md",
     "database/IMAGE/Pasted image 20261104194005.png",
     "未命名.md",
-    "FT.md",
     "database/IMAGE/IMG_20261102_155036.jpg",
     "database/IMAGE/IMG_20261102_154702.jpg",
     "database/IMAGE/IMG20261102150852.jpg",
