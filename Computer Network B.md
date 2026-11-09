@@ -84,7 +84,8 @@ ICMP: ip层用于检测网络问题
 >主机A连接到路由器R的WIFI后，R获得MAC_A并通过DHCP(Dynamic Host Configuation Protocol)协议为A动态分配IP_A，并提供自身的IP_R。然后A通过ARP广播获MAC_A.
 
 
-### 因特网路由选择协议：
+### 
+因特网路由选择协议：
 
 一、内部网关协议（IGP）
 - RIP(Routing Information Protocol)
@@ -99,4 +100,22 @@ ICMP: ip层用于检测网络问题
 	
 外部网关协议(OGP)
 - eBGP
+
+
+
+IPv6：
+不同于IPv4，分片在源端进行；
+
+IPv6 首部：（40Bit）
+	流标号：
+	有效载荷长度：16bit（64KB）
+	源地址、目的地址（128bit）
+IPv6寻址：
+- 单播
+- 组播
+- 任播（根据路由协议，最优化多选一）
+
+IP多播/组播（v4，v6）（multicast）
+- 目的：一对多通信；
+
 
