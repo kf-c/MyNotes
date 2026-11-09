@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随笔.md",
+                "file": "通信原理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -172,8 +172,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,6 +190,9 @@
   },
   "active": "541f970f79240499",
   "lastOpenFiles": [
+    "database/IMAGE/Pasted image 20261109180901.png",
+    "database/IMAGE/Pasted image 20261109180102.png",
+    "database/IMAGE/Pasted image 20261109171753.png",
     "database/IMAGE/Pasted image 20261109154017.png",
     "database/IMAGE/Pasted image 20261109153959.png",
     "Computer Network B.md",
@@ -216,8 +218,6 @@
     "database/IMAGE/Pasted image 20261021164424.png",
     "database/drawio/network.drawio",
     "database/drawio/Sample.drawio",
-    "database/IMAGE/Pasted image 20261019100939.png",
-    "database/IMAGE/Pasted image 20261019102050.png",
     "database/drawio/network establishment.drawio",
     "experience/CS2.md",
     "language/UV NOTE.md",
@@ -230,7 +230,6 @@
     "prompt.md",
     "network.drawio.md",
     "database/drawio",
-    "Pasted image 20261018223820.png",
     "language/HTML.md",
     "language/CP/MQTT.md",
     "language/CP/IIC未命名 1.md",
