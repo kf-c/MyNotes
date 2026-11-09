@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Network B.md",
+                "file": "通信原理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Computer Network B"
+              "title": "通信原理"
             }
           }
         ]
@@ -191,11 +191,11 @@
   },
   "active": "541f970f79240499",
   "lastOpenFiles": [
+    "Computer Network B.md",
     "随机信号分析.md",
     "随笔.md",
     "未命名.md",
     "DFT.md",
-    "Computer Network B.md",
     "FT.md",
     "log/codex log.md",
     "log/routine.md",
