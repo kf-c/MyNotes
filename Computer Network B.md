@@ -161,4 +161,20 @@ IP安全数据报
 
 ![[database/IMAGE/Pasted image 20261109195630.png]]
 ## 运输层
----可diy层
+
+>- 可diy；
+>- IP层解决主机之间通信；运输层解决应用进程之间的通信。
+>- 运输层向高层用户屏蔽了下面的网络核心细节（如网络拓扑、路由协议等）;
+
+
+**User Datagram Protocol**
+面向无连接，提供单播，广播，组播
+
+
+**Transmission Control Protocol**
+面向连接，仅提供单播
+
+**Multipath TCP**
+
+
+
