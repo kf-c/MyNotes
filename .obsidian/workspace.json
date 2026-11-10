@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "通信原理.md",
+                "file": "随机信号分析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "通信原理"
+              "title": "随机信号分析"
             }
           }
         ],
@@ -199,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "通信原理.md",
+                "file": "随机信号分析.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -231,10 +231,10 @@
   },
   "active": "71e18a3c12e9b269",
   "lastOpenFiles": [
+    "通信原理.md",
     "database/IMAGE/Pasted image 20261110105645.png",
     "database/drawio/SSB2.drawio",
     "FT.md",
-    "通信原理.md",
     "database/IMAGE/drawio.svg",
     "database/drawio/SSB.drawio",
     "Computer Network B.md",
@@ -247,7 +247,6 @@
     "database/IMAGE/Pasted image 20261109184551.png",
     "database/IMAGE/Pasted image 20261109184113.png",
     "database/IMAGE/Pasted image 20261109184012.png",
-    "database/IMAGE/Pasted image 20261109180901.png",
     "随机信号分析.md",
     "随笔.md",
     "DFT.md",
