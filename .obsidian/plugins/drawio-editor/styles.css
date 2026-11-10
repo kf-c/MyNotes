@@ -8,12 +8,12 @@
 .drawio-preview { width: 100%; overflow: auto; text-align: center; }
 /* The extracted SVG carries explicit width/height/viewBox (see ViewerRenderer),
    so it renders at its natural diagram size and scales down to fit; centre it. */
-.drawio-preview svg { max-width: 100%; height: auto; display: block; margin: 0 auto; }
+.drawio-preview > svg { max-width: 100%; height: auto; display: block; margin: 0 auto; }
 /* "Preview alignment: Left" setting. Body-level (toggled by the plugin on
    every window) so a settings change realigns already-rendered previews
    without waiting for a re-render. */
 body.drawio-align-left .drawio-preview { text-align: left; }
-body.drawio-align-left .drawio-preview svg { margin: 0; }
+body.drawio-align-left .drawio-preview > svg { margin: 0; }
 
 /* Previews whose click action is "Do nothing" shouldn't advertise clickability. */
 .drawio-codeblock.drawio-no-action, .drawio-embed.drawio-no-action,
@@ -104,7 +104,7 @@ body.drawio-align-left .drawio-preview svg { margin: 0; }
 .drawio-edit-action-row + .drawio-edit-action-row {
   border-top: 1px solid var(--background-modifier-border);
 }
-.drawio-edit-action-label { color: var(--text-normal); font-weight: var(--font-semibold); }
+.drawio-edit-action-label { color: var(--text-normal); }
 .drawio-edit-action-description { color: var(--text-muted); font-size: var(--font-ui-smaller); }
 .drawio-edit-action-control { flex: 0 0 auto; }
 .drawio-edit-action-control select { max-width: 240px; }

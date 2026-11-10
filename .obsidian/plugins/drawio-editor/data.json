@@ -9,8 +9,10 @@
   "newDiagramLocation": "folder",
   "newDiagramFolder": "database/drawio",
   "newDiagramFormat": "drawio",
+  "pngExportScale": 2,
   "previewAlignment": "center",
   "readonlyFileView": false,
   "previewClickAction": "editor",
-  "editButtonAction": "editor"
+  "editButtonAction": "editor",
+  "webappVersionNoticeShownFor": "v31.1.8"
 }

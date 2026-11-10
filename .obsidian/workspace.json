@@ -20,8 +20,35 @@
               "icon": "lucide-file",
               "title": "Computer Network B"
             }
+          },
+          {
+            "id": "b76b76130f97b230",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "通信原理.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "通信原理"
+            }
+          },
+          {
+            "id": "ce246c5d7a1631cd",
+            "type": "leaf",
+            "state": {
+              "type": "drawio-file-view",
+              "state": {
+                "file": "database/drawio/SSB2.drawio"
+              },
+              "icon": "pencil-ruler",
+              "title": "SSB2"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Network B.md",
+                "file": "通信原理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,24 +215,25 @@
       "drawio-editor:Create new drawio diagram": false
     }
   },
-  "active": "541f970f79240499",
+  "active": "b76b76130f97b230",
   "lastOpenFiles": [
+    "database/drawio/SSB2.drawio",
+    "通信原理.md",
+    "database/IMAGE/drawio.svg",
+    "database/drawio/SSB.drawio",
+    "Computer Network B.md",
+    "未命名.md",
+    "database/IMAGE/Pasted image 20261110085928.png",
     "database/IMAGE/Pasted image 20261109195630.png",
     "database/IMAGE/Pasted image 20261109195347.png",
     "database/IMAGE/Pasted image 20261109195231.png",
-    "通信原理.md",
     "database/IMAGE/Pasted image 20261109185239.png",
     "database/IMAGE/Pasted image 20261109184551.png",
     "database/IMAGE/Pasted image 20261109184113.png",
     "database/IMAGE/Pasted image 20261109184012.png",
     "database/IMAGE/Pasted image 20261109180901.png",
-    "database/IMAGE/Pasted image 20261109180102.png",
-    "database/IMAGE/Pasted image 20261109171753.png",
-    "database/IMAGE/Pasted image 20261109154017.png",
-    "Computer Network B.md",
     "随机信号分析.md",
     "随笔.md",
-    "未命名.md",
     "DFT.md",
     "FT.md",
     "log/codex log.md",
@@ -237,9 +265,7 @@
     "未命名.base",
     "software/cline.canvas",
     "OS/FreeRTOS/sub_canvas.canvas",
-    "log/daily",
     "OS/LINUX/CANVAS.canvas",
-    "OS/LINUX",
     "FreeRTOS_canvas.canvas",
     "FreeRTOS/FreeRTOS.canvas"
   ]
