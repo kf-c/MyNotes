@@ -129,12 +129,18 @@ DFT逼近的FT有且仅有一下缺点：
 #### 1. 抽取
 $$
 y(m) = x(Mn)\\\\
-
 Y(\omega)
 =\sum_{r=0}^{M-1}G(\omega-2\pi r)
 =\frac1M\sum_{r=0}^{M-1}
 X\left(\frac{\omega-2\pi r}{M}\right)
+$$
+>取出一个周期 → 横向拉伸 $M$ 倍、纵向乘 $1/M$ → 每隔 $2\pi$ 复制并相加。
 
+$\omega_c\le\frac{\pi}{D}时，无混叠，有$
+
+$$
+Y(\omega)=\frac1D X\left(\frac{\omega}{D}\right),
+\quad |\omega|\le\pi 
 $$
 
 $$
@@ -143,8 +149,7 @@ v[n]\ \xrightarrow{\text{每 }M\text{ 点取一个}}
 y[m].
 $$
 
->取出一个周期 → 横向拉伸 $M$ 倍、纵向乘 $1/M$ → 每隔 $2\pi$ 复制并相加。
-
+更一般地，在无混叠条件下，$\forall D \in R$ ，有上式成立。
 #### 2. 插值
 
 定义
