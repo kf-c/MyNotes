@@ -1,4 +1,4 @@
-%%%%## foundation
+## foundation
 
 - **Definition**：
 $$
@@ -6,7 +6,6 @@ F(w) = \int_{-\infty}^{+\infty}f(t)e^{-j\omega t}\,dt
 $$
 
 
-![[test0001.canvas]]
 - **basic transform**
   1.  $\delta(t) \xrightarrow{FT} 1$
   2.  $1\xlongrightarrow{FT}2\pi\delta (w)$ 

@@ -2,7 +2,6 @@
 date: 2026-10-21
 ---
 #正交调制
-## Quadrature Sampling
 
 ![[Pasted image 20261021164424.png|576]]
 
