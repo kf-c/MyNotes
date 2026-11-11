@@ -4,6 +4,9 @@
 $$
 F(w) = \int_{-\infty}^{+\infty}f(t)e^{-j\omega t}\,dt
 $$
+
+
+![[test0001.canvas]]
 - **basic transform**
   1.  $\delta(t) \xrightarrow{FT} 1$
   2.  $1\xlongrightarrow{FT}2\pi\delta (w)$ 
@@ -18,7 +21,7 @@ $$
 2. 频移特性:  $e^{-j\omega_0 t}f(t) \xrightarrow{FT} F(\omega + \omega_0)$
 3. 时移特性：$f(t-t_0) \xrightarrow{FT}e^{-jwt_0}F(w)$
 4. 对称性
-5. 
+
 
 
 
