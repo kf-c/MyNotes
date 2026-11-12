@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "信号处理/DFT.md",
+                "file": "随笔.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DFT"
+              "title": "随笔"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "信号处理/DFT.md",
+                "file": "随笔.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DFT"
+              "title": "随笔"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "信号处理/DFT.md",
+                "file": "随笔.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -203,14 +202,14 @@
       "drawio-editor:Create new drawio diagram": false
     }
   },
-  "active": "25be0be3c46bf7d9",
+  "active": "47b31524ccdaa1dc",
   "lastOpenFiles": [
+    "信号处理/DFT.md",
+    "随笔.md",
     "信号处理/FT.md",
     "信号处理/Quadrature Sampling.md",
-    "信号处理/DFT.md",
     "信号处理/通信原理.md",
     "PGA112 DEBUB.md",
-    "随笔.md",
     "信号处理/随机信号分析.md",
     "Computer Network B.md",
     "cubli log.md",

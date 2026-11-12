@@ -136,7 +136,8 @@ X\left(\frac{\omega-2\pi r}{M}\right)
 $$
 >取出一个周期 → 横向拉伸 $M$ 倍、纵向乘 $1/M$ → 每隔 $2\pi$ 复制并相加。
 
-$\omega_c\le\frac{\pi}{D}时，无混叠，有$
+$\omega \le\frac{\pi}{D}时，无混叠，有$
+
 
 $$
 Y(\omega)=\frac1D X\left(\frac{\omega}{D}\right),
