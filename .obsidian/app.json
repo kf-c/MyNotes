@@ -8,5 +8,6 @@
   },
   "attachmentFolderPath": "database/IMAGE",
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "absolute",
+  "promptDelete": false
 }
