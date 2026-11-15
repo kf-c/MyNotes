@@ -188,8 +188,10 @@
       "drawio-editor:Create new drawio diagram": false
     }
   },
-  "active": "0e341745ad22da1f",
+  "active": "25be0be3c46bf7d9",
   "lastOpenFiles": [
+    "信号处理/sheet_原文原图_两页微调版.html",
+    "信号处理/sheet_原文原图_两页微调版.pdf",
     "信号处理/sheet_排版与校对说明.md",
     "信号处理/sheet_A4双面打印版.html",
     "信号处理/sheet_A4双面打印版.pdf",
@@ -213,7 +215,6 @@
     "database/IMAGE/resources/background_clothing_conf/icon/bd546c92cb2541715bb0a419f7698fe7.jpg-lx2",
     "database/IMAGE/resources/background_clothing_conf/icon/a85186284a0925b273054944aba5ae21.jpg-lx2",
     "database/IMAGE/resources/background_clothing_conf/icon/50298d2b2e126cd9600607e198f1060e.jpg-lx2",
-    "database/IMAGE/resources/background_clothing_conf/icon/c3472af0e2cd5a93deaf2d682dd5e4c9.jpg-lx2",
     "随笔.md",
     "Obsidian help.md",
     "信号处理/DFT.md",
@@ -236,7 +237,6 @@
     "experience/CS2.md",
     "Physics.md",
     "database/embeded/stm32.md",
-    "database/embeded/Emebed.md",
     "database/embeded/esp32.canvas",
     "software/cline.canvas",
     "OS/FreeRTOS/sub_canvas.canvas",
