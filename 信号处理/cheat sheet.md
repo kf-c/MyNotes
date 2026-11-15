@@ -12,6 +12,13 @@
 ![[database/IMAGE/Pasted image 20261114201829.png|508]]
 - 应用：
 ![[database/IMAGE/Pasted image 20261114201900.png|506]]
+### 带宽
+| 带宽          | 应标注的位置                                     |
+| ----------- | ------------------------------------------ |
+| **3 dB 带宽** | 主峰两侧幅度降到最大值 $1/\sqrt2\approx0.707$ 的两个频率之间 |
+| **过零带宽**    | 主瓣两侧紧邻的第一个零点之间                             |
+| **绝对带宽**    | 整个非零频谱的最左端到最右端，包括旁瓣                        |
+| **功率带宽**    | 包含规定比例总功率的频带，例如 99% 功率带宽                   |
 ### AM信号
 #### 一、DSB-SC
 （Double Sideband Suppressed Carrier，双边带抑制载波调制）
@@ -27,12 +34,12 @@ $$
 解调：非相干/相干法
 #### 三、SSB
 原理：由于是信号的共轭对称性，实际上只需要传递单个边带即包含全部信息。
+特点：带宽占用仅为AM，DSB一半，但须相干解调，实现较复杂。
 实现：
 1.滤波器法
 将基带信号先混频到中频信号，可以增大过渡带的归一化值，便于滤波器设计。
 ![[database/drawio/SSB.drawio|SSB]]
 2.移相法
-带宽占用仅为AM，DSB一半，但须相干解调，实现较复杂。
 ![[database/drawio/SSB2.drawio|SSB2]]
 
 #### 四、VSB
@@ -160,7 +167,7 @@ $$
 $$
 码元速率R_B,\ 比特率R_b,\ 频带利用率\eta
 $$
-其中 $R_b =R_B\log_{2}{M},\ \eta = R_B/B$
+其中 $R_b =R_B\log_{2}{M},\ \eta = R_B/B,\ M表示M进制码元$
 可靠性：
 ![[database/IMAGE/Pasted image 20261115170720.png|400]]
 
@@ -179,13 +186,13 @@ $$
   
 ![607](data:image/svg+xml;charset=utf-8,%3Csvg%20font-family%3D%22-apple-system-body%2C%20ui-sans-serif%2C%20-apple-system%2C%20system-ui%2C%20%26quot%3BSegoe%20UI%26quot%3B%2C%20Helvetica%2C%20%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%20Arial%2C%20sans-serif%2C%20%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%20%26quot%3BSegoe%20UI%20Symbol%26quot%3B%22%20font-weight%3D%22400%22%20data-d-component%3D%22svg%22%20fill%3D%22currentColor%22%20style%3D%22color%3Argb\(13%2C%2013%2C%2013\)%22%20viewBox%3D%220%200%20900%20420%22%20width%3D%22100%25%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cline%20x1%3D%22114%22%20y1%3D%2235%22%20x2%3D%22114%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Cline%20x1%3D%22153%22%20y1%3D%2235%22%20x2%3D%22153%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Cline%20x1%3D%22192%22%20y1%3D%2235%22%20x2%3D%22192%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Cline%20x1%3D%22231%22%20y1%3D%2235%22%20x2%3D%22231%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Cline%20x1%3D%22270%22%20y1%3D%2235%22%20x2%3D%22270%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Cline%20x1%3D%22309%22%20y1%3D%2235%22%20x2%3D%22309%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Cline%20x1%3D%22348%22%20y1%3D%2235%22%20x2%3D%22348%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Cline%20x1%3D%22387%22%20y1%3D%2235%22%20x2%3D%22387%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Cline%20x1%3D%22426%22%20y1%3D%2235%22%20x2%3D%22426%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Cline%20x1%3D%22465%22%20y1%3D%2235%22%20x2%3D%22465%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Cline%20x1%3D%22504%22%20y1%3D%2235%22%20x2%3D%22504%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Cline%20x1%3D%22543%22%20y1%3D%2235%22%20x2%3D%22543%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Cline%20x1%3D%22582%22%20y1%3D%2235%22%20x2%3D%22582%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Cline%20x1%3D%22621%22%20y1%3D%2235%22%20x2%3D%22621%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Cline%20x1%3D%22660%22%20y1%3D%2235%22%20x2%3D%22660%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Cline%20x1%3D%22699%22%20y1%3D%2235%22%20x2%3D%22699%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Cline%20x1%3D%22738%22%20y1%3D%2235%22%20x2%3D%22738%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Cline%20x1%3D%22777%22%20y1%3D%2235%22%20x2%3D%22777%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Cline%20x1%3D%22816%22%20y1%3D%2235%22%20x2%3D%22816%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Cline%20x1%3D%22855%22%20y1%3D%2235%22%20x2%3D%22855%22%20y2%3D%22397%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.16%22%20stroke-dasharray%3D%223%204%22%2F%3E%3Ctext%20x%3D%2214%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2214%22%20font-weight%3D%22600%22%3E%E5%8E%9F%E5%A7%8B%E7%A0%81%3C%2Ftext%3E%3Ctext%20x%3D%22133.5%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20text-anchor%3D%22middle%22%3E1%3C%2Ftext%3E%3Ctext%20x%3D%22172.5%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20text-anchor%3D%22middle%22%3E0%3C%2Ftext%3E%3Ctext%20x%3D%22211.5%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20text-anchor%3D%22middle%22%3E0%3C%2Ftext%3E%3Ctext%20x%3D%22250.5%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20text-anchor%3D%22middle%22%3E0%3C%2Ftext%3E%3Ctext%20x%3D%22289.5%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20text-anchor%3D%22middle%22%3E0%3C%2Ftext%3E%3Ctext%20x%3D%22328.5%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20text-anchor%3D%22middle%22%3E1%3C%2Ftext%3E%3Ctext%20x%3D%22367.5%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20text-anchor%3D%22middle%22%3E1%3C%2Ftext%3E%3Ctext%20x%3D%22406.5%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20text-anchor%3D%22middle%22%3E0%3C%2Ftext%3E%3Ctext%20x%3D%22445.5%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20text-anchor%3D%22middle%22%3E0%3C%2Ftext%3E%3Ctext%20x%3D%22484.5%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20text-anchor%3D%22middle%22%3E0%3C%2Ftext%3E%3Ctext%20x%3D%22523.5%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20text-anchor%3D%22middle%22%3E0%3C%2Ftext%3E%3Ctext%20x%3D%22562.5%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20text-anchor%3D%22middle%22%3E0%3C%2Ftext%3E%3Ctext%20x%3D%22601.5%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20text-anchor%3D%22middle%22%3E0%3C%2Ftext%3E%3Ctext%20x%3D%22640.5%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20text-anchor%3D%22middle%22%3E0%3C%2Ftext%3E%3Ctext%20x%3D%22679.5%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20text-anchor%3D%22middle%22%3E0%3C%2Ftext%3E%3Ctext%20x%3D%22718.5%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20text-anchor%3D%22middle%22%3E1%3C%2Ftext%3E%3Ctext%20x%3D%22757.5%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20text-anchor%3D%22middle%22%3E0%3C%2Ftext%3E%3Ctext%20x%3D%22796.5%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20text-anchor%3D%22middle%22%3E1%3C%2Ftext%3E%3Ctext%20x%3D%22835.5%22%20y%3D%2225%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%20text-anchor%3D%22middle%22%3E0%3C%2Ftext%3E%3Cg%3E%3Cline%20x1%3D%22114%22%20y1%3D%22105%22%20x2%3D%22855%22%20y2%3D%22105%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.4%22%20stroke-dasharray%3D%225%204%22%2F%3E%3Ctext%20x%3D%225%22%20y%3D%22110%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%3EAMI%3C%2Ftext%3E%3Ctext%20x%3D%22103%22%20y%3D%2284%22%20font-size%3D%2211%22%20fill%3D%22currentColor%22%20text-anchor%3D%22end%22%3E%2BA%3C%2Ftext%3E%3Ctext%20x%3D%22103%22%20y%3D%22109%22%20font-size%3D%2211%22%20fill%3D%22currentColor%22%20text-anchor%3D%22end%22%3E0%3C%2Ftext%3E%3Ctext%20x%3D%22103%22%20y%3D%22134%22%20font-size%3D%2211%22%20fill%3D%22currentColor%22%20text-anchor%3D%22end%22%3E%E2%88%92A%3C%2Ftext%3E%3C%2Fg%3E%3Cg%3E%3Cline%20x1%3D%22114%22%20y1%3D%22232%22%20x2%3D%22855%22%20y2%3D%22232%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.4%22%20stroke-dasharray%3D%225%204%22%2F%3E%3Ctext%20x%3D%225%22%20y%3D%22237%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%3EHDB%E2%82%83%3C%2Ftext%3E%3Ctext%20x%3D%22103%22%20y%3D%22211%22%20font-size%3D%2211%22%20fill%3D%22currentColor%22%20text-anchor%3D%22end%22%3E%2BA%3C%2Ftext%3E%3Ctext%20x%3D%22103%22%20y%3D%22236%22%20font-size%3D%2211%22%20fill%3D%22currentColor%22%20text-anchor%3D%22end%22%3E0%3C%2Ftext%3E%3Ctext%20x%3D%22103%22%20y%3D%22261%22%20font-size%3D%2211%22%20fill%3D%22currentColor%22%20text-anchor%3D%22end%22%3E%E2%88%92A%3C%2Ftext%3E%3C%2Fg%3E%3Cg%3E%3Cline%20x1%3D%22114%22%20y1%3D%22360%22%20x2%3D%22855%22%20y2%3D%22360%22%20stroke%3D%22currentColor%22%20stroke-opacity%3D%220.4%22%20stroke-dasharray%3D%225%204%22%2F%3E%3Ctext%20x%3D%225%22%20y%3D%22365%22%20fill%3D%22currentColor%22%20font-size%3D%2215%22%20font-weight%3D%22600%22%3EManchester%3C%2Ftext%3E%3Ctext%20x%3D%22103%22%20y%3D%22339%22%20font-size%3D%2211%22%20fill%3D%22currentColor%22%20text-anchor%3D%22end%22%3E%2BA%3C%2Ftext%3E%3Ctext%20x%3D%22103%22%20y%3D%22364%22%20font-size%3D%2211%22%20fill%3D%22currentColor%22%20text-anchor%3D%22end%22%3E0%3C%2Ftext%3E%3Ctext%20x%3D%22103%22%20y%3D%22389%22%20font-size%3D%2211%22%20fill%3D%22currentColor%22%20text-anchor%3D%22end%22%3E%E2%88%92A%3C%2Ftext%3E%3C%2Fg%3E%3Cpath%20d%3D%22M%20114%20105%20L%20114%2080%20L%20153%2080%20L%20153%20105%20L%20192%20105%20L%20192%20105%20L%20231%20105%20L%20231%20105%20L%20270%20105%20L%20270%20105%20L%20309%20105%20L%20309%20130%20L%20348%20130%20L%20348%2080%20L%20387%2080%20L%20387%20105%20L%20426%20105%20L%20426%20105%20L%20465%20105%20L%20465%20105%20L%20504%20105%20L%20504%20105%20L%20543%20105%20L%20543%20105%20L%20582%20105%20L%20582%20105%20L%20621%20105%20L%20621%20105%20L%20660%20105%20L%20660%20105%20L%20699%20105%20L%20699%20130%20L%20738%20130%20L%20738%20105%20L%20777%20105%20L%20777%2080%20L%20816%2080%20L%20816%20105%20L%20855%20105%20L%20855%20105%22%20stroke%3D%22%233689db%22%20stroke-width%3D%223.2%22%20stroke-linejoin%3D%22round%22%20fill%3D%22none%22%2F%3E%3Cpath%20d%3D%22M%20114%20232%20L%20114%20207%20L%20153%20207%20L%20153%20232%20L%20192%20232%20L%20192%20232%20L%20231%20232%20L%20231%20232%20L%20270%20232%20L%20270%20207%20L%20309%20207%20L%20309%20257%20L%20348%20257%20L%20348%20207%20L%20387%20207%20L%20387%20257%20L%20426%20257%20L%20426%20232%20L%20465%20232%20L%20465%20232%20L%20504%20232%20L%20504%20257%20L%20543%20257%20L%20543%20207%20L%20582%20207%20L%20582%20232%20L%20621%20232%20L%20621%20232%20L%20660%20232%20L%20660%20207%20L%20699%20207%20L%20699%20257%20L%20738%20257%20L%20738%20232%20L%20777%20232%20L%20777%20207%20L%20816%20207%20L%20816%20232%20L%20855%20232%20L%20855%20232%22%20stroke%3D%22%2316a47d%22%20stroke-width%3D%223.2%22%20stroke-linejoin%3D%22round%22%20fill%3D%22none%22%2F%3E%3Cpath%20d%3D%22M%20114%20360%20L%20114%20335%20L%20133.5%20335%20L%20133.5%20385%20L%20153%20385%20L%20153%20385%20L%20172.5%20385%20L%20172.5%20335%20L%20192%20335%20L%20192%20385%20L%20211.5%20385%20L%20211.5%20335%20L%20231%20335%20L%20231%20385%20L%20250.5%20385%20L%20250.5%20335%20L%20270%20335%20L%20270%20385%20L%20289.5%20385%20L%20289.5%20335%20L%20309%20335%20L%20309%20335%20L%20328.5%20335%20L%20328.5%20385%20L%20348%20385%20L%20348%20335%20L%20367.5%20335%20L%20367.5%20385%20L%20387%20385%20L%20387%20385%20L%20406.5%20385%20L%20406.5%20335%20L%20426%20335%20L%20426%20385%20L%20445.5%20385%20L%20445.5%20335%20L%20465%20335%20L%20465%20385%20L%20484.5%20385%20L%20484.5%20335%20L%20504%20335%20L%20504%20385%20L%20523.5%20385%20L%20523.5%20335%20L%20543%20335%20L%20543%20385%20L%20562.5%20385%20L%20562.5%20335%20L%20582%20335%20L%20582%20385%20L%20601.5%20385%20L%20601.5%20335%20L%20621%20335%20L%20621%20385%20L%20640.5%20385%20L%20640.5%20335%20L%20660%20335%20L%20660%20385%20L%20679.5%20385%20L%20679.5%20335%20L%20699%20335%20L%20699%20335%20L%20718.5%20335%20L%20718.5%20385%20L%20738%20385%20L%20738%20385%20L%20757.5%20385%20L%20757.5%20335%20L%20777%20335%20L%20777%20335%20L%20796.5%20335%20L%20796.5%20385%20L%20816%20385%20L%20816%20385%20L%20835.5%20385%20L%20835.5%20335%20L%20855%20335%20L%20855%20360%22%20stroke%3D%22%239867d3%22%20stroke-width%3D%223.2%22%20stroke-linejoin%3D%22round%22%20fill%3D%22none%22%2F%3E%3Ctext%20x%3D%22289.5%22%20y%3D%22195%22%20text-anchor%3D%22middle%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%2316a47d%22%3E%2BV%3C%2Ftext%3E%3Ctext%20x%3D%22406.5%22%20y%3D%22281%22%20text-anchor%3D%22middle%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%2316a47d%22%3E%E2%88%92B%3C%2Ftext%3E%3Ctext%20x%3D%22523.5%22%20y%3D%22281%22%20text-anchor%3D%22middle%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%2316a47d%22%3E%E2%88%92V%3C%2Ftext%3E%3Ctext%20x%3D%22562.5%22%20y%3D%22195%22%20text-anchor%3D%22middle%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%2316a47d%22%3E%2BB%3C%2Ftext%3E%3Ctext%20x%3D%22679.5%22%20y%3D%22195%22%20text-anchor%3D%22middle%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%2316a47d%22%3E%2BV%3C%2Ftext%3E%3Ctext%20x%3D%22853%22%20y%3D%22410%22%20fill%3D%22currentColor%22%20font-size%3D%2211%22%20text-anchor%3D%22end%22%3E%E6%97%B6%E9%97%B4%20t%20%E2%86%92%3C%2Ftext%3E%3C%2Fsvg%3E)
 
-|码型|连续谱的形状|离散谱特点|连续谱第一正零点|
-|---|---|---|---|
-|单极性 NRZ|$\operatorname{sinc}^2(fT_s)$|只有直流谱线|$1/T_s$|
-|双极性 NRZ|$\operatorname{sinc}^2(fT_s)$|等概率时无离散谱|$1/T_s$|
-|单极性 RZ|$\operatorname{sinc}^2(fDT_s)$|有直流谱线，通常还有码元率及部分谐波谱线|$1/(DT_s)$|
-|双极性 RZ|$\operatorname{sinc}^2(fDT_s)$|等概率时无离散谱|$1/(DT_s)$|
-
+| 码型      | 连续谱的形状                         | 离散谱特点                | 连续谱第一正零点   |
+| ------- | ------------------------------ | -------------------- | ---------- |
+| 单极性 NRZ | $\operatorname{sinc}^2(fT_s)$  | 只有直流谱线               | $1/T_s$    |
+| 双极性 NRZ | $\operatorname{sinc}^2(fT_s)$  | 等概率时无离散谱             | $1/T_s$    |
+| 单极性 RZ  | $\operatorname{sinc}^2(fDT_s)$ | 有直流谱线，通常还有码元率及部分谐波谱线 | $1/(DT_s)$ |
+| 双极性 RZ  | $\operatorname{sinc}^2(fDT_s)$ | 等概率时无离散谱             | $1/(DT_s)$ |
+>一般将连续谱第一正零点定义为带宽
 
 ## 10.数字频带传输
 
@@ -224,6 +231,7 @@ $$
 b(n)=a(n)\oplus a(n-1)
 $$
 即接收端只需比较相邻码元，即能恢复当前信息位。
+解调：相干/差分
 
 **四、2FSK**---FM
 1.调制---两个2ASK信号的叠加
@@ -287,8 +295,16 @@ $$
 
 ## Q&A
 ### L3
-复信号是由两路实信号人为构建出来的，适合描述通信中的**幅度与相位变化**；
-共轭对称谱的物理含义：要用复指数来合成一个没有虚部的波形，正、负频率分量就必须按共轭关系配对。
+- 复信号是由两路实信号人为构建出来的，适合描述通信中的**幅度与相位变化**；
+- 由欧拉公式：
+
+$$
+\cos(2\pi f_0t)
+=\frac12e^{j2\pi f_0t}+\frac12e^{-j2\pi f_0t}
+$$
+
+- 正、负频率对应复平面上**旋转方向相反**的复指数。两者相加，虚部抵消，形成实余弦。负频率不是“每秒振动负次数”。
+- 共轭对称谱的物理含义：要用复指数来合成一个没有虚部的波形，正、负频率分量就必须按共轭关系配对。
 ### L4。
 调制的原因：缩小天线尺寸、增加频带利用率、提高抗干扰、规范化；
 门限效应：输入信噪比降低到某个水平以下时，解调器的输出信噪比会急剧恶化，而不是随输入信噪比平缓下降。这个转折处的输入信噪比称为“门限”
@@ -304,7 +320,6 @@ $$
 %%
 ### L5调频。
 - m(t)--积分--PM调制器--FM；m(t)--微分分--FM调制器--PM；非线性调制：m(t),s(t)不满足线性关系；
-
 ### L6。
 - 功率信号：功率有限、能量无限；
   能量信号：能量有限、平均功率为零；
