@@ -3,5 +3,6 @@
     "blockquote",
     "vscode-dark"
   ],
-  "theme": "system"
+  "theme": "system",
+  "showRibbon": true
 }
