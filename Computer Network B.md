@@ -97,6 +97,18 @@ ICMP: ip层用于检测网络问题
 IP多播/组播（v4，v6）（multicast）（不考）
 - 目的：一对多通信；
 - IGMP：使路由器知道网段上的多播组成员信息；
+### IP首部
+不同于IPv4，IPv6分片在源端进行；
+
+IPv6 首部：（40Bit）
+	流标号：
+	有效载荷长度：16bit（64KB）
+	源地址、目的地址（128bit）
+IPv6寻址：
+- 单播
+- 组播
+- 任播（根据路由协议，最优化多选一）
+![[database/IMAGE/Pasted image 20261116111512.png]]
 ### 因特网路由选择协议：
 
 一、内部网关协议（IGP）
@@ -113,20 +125,6 @@ IP多播/组播（v4，v6）（multicast）（不考）
 外部网关协议(OGP)
 - eBGP
 
-
-
-### IPv6
-不同于IPv4，分片在源端进行；
-
-IPv6 首部：（40Bit）
-	流标号：
-	有效载荷长度：16bit（64KB）
-	源地址、目的地址（128bit）
-IPv6寻址：
-- 单播
-- 组播
-- 任播（根据路由协议，最优化多选一）
-
 ### 网络层安全协议
 
 - 数据机密性
@@ -138,6 +136,8 @@ IPv6寻址：
 IP安全数据报
 - Transport Mode
 - Tunnel Mode
+
+### Others
 
 **MPLS**（Multiple Protocol Label Switching）
 位于链路层和网络层之间（更偏向链路层含义）
@@ -168,13 +168,27 @@ IP安全数据报
 
 
 **User Datagram Protocol**
-面向无连接，提供单播，广播（定向/受限广播？），组播
+- 面向无连接，提供单播，广播（定向/受限广播？），组播
 
-鉴 于 Internet上的标准MTU值为576字节,所以在进行Internet的UDP编程时.最好将UDP的数据长度控制在548字节 (576-8-20)以内.
-
+- 鉴 于 Internet上的标准MTU值为576字节,所以在进行Internet的UDP编程时.最好将UDP的数据长度控制在548字节 (576-8-20)以内.
+- 伪首部并不存在，只是为了计算校验和虚构出来的；
+![[database/drawio/UDP head.drawio|UDP head]]
 
 **Transmission Control Protocol**
 面向连接，仅提供单播
+
+- ARQ（Automatic Repeat reQuest，自动重传请求协议）
+![[database/IMAGE/Pasted image 20261116112836.png]]
+
+简单，但信道利用率低
+![[database/IMAGE/Pasted image 20261116113205.png]]
+$$
+
+信号利用率U\\
+TCP吞吐量
+$$
+考虑到单独发送应答的数据利用率低下，有捎带应答/时延应答
+
 
 **Multipath TCP** 
 
