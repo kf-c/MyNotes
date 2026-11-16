@@ -167,30 +167,38 @@ IP安全数据报
 >- 运输层向高层用户屏蔽了下面的网络核心细节（如网络拓扑、路由协议等）;
 
 
-**User Datagram Protocol**
+### UDP
+---User Datagram Protocol
 - 面向无连接，提供单播，广播（定向/受限广播？），组播
 
 - 鉴 于 Internet上的标准MTU值为576字节,所以在进行Internet的UDP编程时.最好将UDP的数据长度控制在548字节 (576-8-20)以内.
 - 伪首部并不存在，只是为了计算校验和虚构出来的；
 ![[database/drawio/UDP head.drawio|UDP head]]
 
-**Transmission Control Protocol**
+### TCP
+---Transmission Control Protocol
 面向连接，仅提供单播
+#### 发送重传机制
 
 - ARQ（Automatic Repeat reQuest，自动重传请求协议）
 ![[database/IMAGE/Pasted image 20261116112836.png]]
 
 简单，但信道利用率低
 ![[database/IMAGE/Pasted image 20261116113205.png]]
+信道利用率
+$$
+U = \dfrac{T_D}{T_D+RTT+T_A}
 $$
 
-信号利用率U\\
-TCP吞吐量
 $$
+TCP吞吐量 = \dfrac{W\times8bit}{T_D+RTT+T_A}
+$$
+
+
 考虑到单独发送应答的数据利用率低下，有捎带应答/时延应答
 
-
-**Multipath TCP** 
+![[database/IMAGE/Pasted image 20261116122728.png]]
+### **Multipath TCP** 
 
 
 
