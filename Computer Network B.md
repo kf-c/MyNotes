@@ -139,9 +139,9 @@ IP安全数据报
 - Transport Mode
 - Tunnel Mode
 
-**MPLS**
+**MPLS**（Multiple Protocol Label Switching）
 位于链路层和网络层之间（更偏向链路层含义）
-由标签决定的控制转发过程（Label Switching Path），类似于ip的别名，可以因地制宜控制转发路径、流量走向等。
+由标签决定的控制转发过程（Label Switching Path），类似于ip的别名，（长路由表---短标签表）可以因地制宜控制转发路径、流量走向等。
 ```
 普通 IP 包
    ↓
@@ -168,13 +168,15 @@ IP安全数据报
 
 
 **User Datagram Protocol**
-面向无连接，提供单播，广播，组播
+面向无连接，提供单播，广播（定向/受限广播？），组播
+
+鉴 于 Internet上的标准MTU值为576字节,所以在进行Internet的UDP编程时.最好将UDP的数据长度控制在548字节 (576-8-20)以内.
 
 
 **Transmission Control Protocol**
 面向连接，仅提供单播
 
-**Multipath TCP**
+**Multipath TCP** 
 
 
 

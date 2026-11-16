@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "信号处理/sheet.md",
+                "file": "Computer Network B.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sheet"
+              "title": "Computer Network B"
             }
           }
         ]
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "信号处理/sheet.md",
+                "file": "Computer Network B.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,6 +190,10 @@
   },
   "active": "25be0be3c46bf7d9",
   "lastOpenFiles": [
+    "Obsidian help.md",
+    "Computer Network B.md",
+    "cubli log.md",
+    "信号处理/sheet.md",
     "信号处理/sheet_原文原图_两页微调版.html",
     "信号处理/sheet_原文原图_两页微调版.pdf",
     "信号处理/sheet_排版与校对说明.md",
@@ -197,7 +201,6 @@
     "信号处理/sheet_A4双面打印版.pdf",
     "信号处理/通信原理.md",
     "信号处理/Quadrature Sampling.md",
-    "信号处理/sheet.md",
     "database/IMAGE/Pasted image 20261115170720.png",
     "database/IMAGE/Pasted image 20261114191420.png",
     "database/IMAGE/resources/background_clothing_conf/icon/bac63962be857aba30858ade392afa6f.png",
@@ -214,15 +217,11 @@
     "database/IMAGE/resources/background_clothing_conf/icon/e10ed4b0fd024c16318a915e023fb705.jpg-lx2",
     "database/IMAGE/resources/background_clothing_conf/icon/bd546c92cb2541715bb0a419f7698fe7.jpg-lx2",
     "database/IMAGE/resources/background_clothing_conf/icon/a85186284a0925b273054944aba5ae21.jpg-lx2",
-    "database/IMAGE/resources/background_clothing_conf/icon/50298d2b2e126cd9600607e198f1060e.jpg-lx2",
     "随笔.md",
-    "Obsidian help.md",
     "信号处理/DFT.md",
     "信号处理/FT.md",
     "PGA112 DEBUB.md",
     "信号处理/随机信号分析.md",
-    "Computer Network B.md",
-    "cubli log.md",
     "未命名.md",
     "language/UV NOTE.md",
     "test0001.canvas",
