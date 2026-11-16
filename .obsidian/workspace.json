@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Network B.md",
+                "file": "信号处理/通信原理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Computer Network B"
+              "title": "通信原理"
             }
           }
         ]
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Network B.md",
+                "file": "信号处理/通信原理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,29 +190,28 @@
   },
   "active": "25be0be3c46bf7d9",
   "lastOpenFiles": [
+    "信号处理/sheet_原文原图_两页微调版.pdf",
+    "信号处理/通信原理.md",
+    "信号处理/sheet_A4双面打印版.pdf",
+    "Obsidian help.md",
+    "Computer Network B.md",
     "database/IMAGE/Pasted image 20261116122728.png",
     "database/IMAGE/Pasted image 20261116113205.png",
     "database/IMAGE/Pasted image 20261116112836.png",
     "database/IMAGE/Pasted image 20261116111512.png",
     "database/drawio/UDP head.drawio",
-    "Computer Network B.md",
     "database/IMAGE/Pasted image 20261116110926.png",
-    "Obsidian help.md",
     "cubli log.md",
     "信号处理/sheet.md",
     "信号处理/sheet_原文原图_两页微调版.html",
-    "信号处理/sheet_原文原图_两页微调版.pdf",
     "信号处理/sheet_排版与校对说明.md",
     "信号处理/sheet_A4双面打印版.html",
-    "信号处理/sheet_A4双面打印版.pdf",
-    "信号处理/通信原理.md",
     "信号处理/Quadrature Sampling.md",
     "database/IMAGE/Pasted image 20261115170720.png",
     "database/IMAGE/Pasted image 20261114191420.png",
     "database/IMAGE/resources/background_clothing_conf/icon/bac63962be857aba30858ade392afa6f.png",
     "database/IMAGE/resources/background_clothing_conf/icon/6d1c261fee7da7d5758fb4895af34e1d.png",
     "database/IMAGE/resources/background_clothing_conf/icon/d738ca96ef1dba04733b8ca570374a97.png",
-    "database/IMAGE/resources/background_clothing_conf/icon/241267b526aacc24c80e349b2138bc13.png",
     "database/IMAGE/resources/background_clothing_conf/icon/b3eb85934d51812c0792c30142b23042.jpg-lx2",
     "database/IMAGE/resources/background_clothing_conf/icon/a0e544ac9e0767eede5ab51812ab2e35.jpg-lx2",
     "database/IMAGE/resources/background_clothing_conf/icon/05712491f0941b64bbe6cfe94e16cd71.jpg-lx2",
