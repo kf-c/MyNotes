@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "db2627a61d636090",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "实验三报告.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "实验三报告"
+            }
+          },
+          {
             "id": "f1bea0fa646d4b20",
             "type": "leaf",
             "state": {
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -187,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随笔.md",
+                "file": "实验三报告.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -201,8 +215,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,10 +231,11 @@
       "drawio-editor:Create new drawio diagram": false
     }
   },
-  "active": "7954e5758e3d0985",
+  "active": "db2627a61d636090",
   "lastOpenFiles": [
-    "PGA112 DEBUB.md",
+    "living/X DOT.md",
     "Antigravity Instructions.md",
+    "PGA112 DEBUB.md",
     "CUBLI.md",
     "prompt.md",
     "Physics.md",
@@ -266,7 +280,6 @@
     "log/routine.md",
     "log/8.30.md",
     "experience/CS2.md",
-    "database/embeded/stm32.md",
     "database/embeded/esp32.canvas",
     "software/cline.canvas",
     "OS/FreeRTOS/sub_canvas.canvas",
