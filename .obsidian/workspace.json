@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "随笔.md",
+                "file": "Computer Network B.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "随笔"
+              "title": "Computer Network B"
             }
           }
         ],
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随笔.md",
+                "file": "Computer Network B.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -233,6 +233,8 @@
   },
   "active": "beb5531a70400ba4",
   "lastOpenFiles": [
+    "Antigravity Instructions.md",
+    "随笔.md",
     "信号处理/随机信号分析.md",
     "信号处理/pluto/Matlab.md",
     "信号处理/pluto/实验三报告.md",
@@ -240,9 +242,7 @@
     "信号处理/pluto",
     "未命名",
     "database/IMAGE/Pasted image 20261121170342.png",
-    "随笔.md",
     "信号处理/FT.md",
-    "Antigravity Instructions.md",
     "信号处理/通信原理.md",
     "database/IMAGE/Pasted image 20261121154250.png",
     "database/IMAGE/Pasted image 20261121152926.png",
