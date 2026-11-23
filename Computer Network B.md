@@ -85,6 +85,9 @@ ICMP: ip层用于检测网络问题
 
 
 ### IP分类
+#### IPv4
+- MTU（Maximum Trassmition Unit）,规定为**576**（512+60+4（裕量）），否则分片。
+  1500： 一个以太网帧的最大载荷（也就是里面装的 IP 数据报）；
 
 | 类别  | 开头二进制位 | 第一字节范围  | 网络号 / 主机号       |
 | --- | ------ | ------- | --------------- |
@@ -97,17 +100,12 @@ ICMP: ip层用于检测网络问题
 IP多播/组播（v4，v6）（multicast）（不考）
 - 目的：一对多通信；
 - IGMP：使路由器知道网段上的多播组成员信息；
-### IP首部
-不同于IPv4，IPv6分片在源端进行；
-
-IPv6 首部：（40Bit）
-	流标号：
-	有效载荷长度：16bit（64KB）
-	源地址、目的地址（128bit）
-IPv6寻址：
-- 单播
-- 组播
-- 任播（根据路由协议，最优化多选一）
+#### IPv6
+- 不同于IPv4，IPv6分片在源端进行，它本身不分片，如果发送包>1500,路由器会直接丢弃，并返回错误。
+- IPv6寻址：
+	- 单播
+	- 组播
+	- 任播（根据路由协议，最优化多选一）
 ![[database/IMAGE/Pasted image 20261116111512.png]]
 ### 因特网路由选择协议：
 
@@ -170,11 +168,9 @@ IP安全数据报
 ### UDP
 ---User Datagram Protocol
 - 面向无连接，提供单播，广播（定向/受限广播？），组播
-
-- 鉴 于 Internet上的标准MTU值为576字节,所以在进行Internet的UDP编程时.最好将UDP的数据长度控制在548字节 (576-8-20)以内.
+- 鉴 于 IPv4标准MTU值为576字节,所以在进行Internet的UDP编程时.最好将UDP的数据长度控制在548字节 (576-8-20)以内.
 - 伪首部并不存在，只是为了计算校验和虚构出来的；
 ![[database/drawio/UDP head.drawio|UDP head]]
-
 ### TCP
 ---Transmission Control Protocol
 面向连接，仅提供单播
@@ -185,9 +181,9 @@ IP安全数据报
 
 简单，但信道利用率低
 ![[database/IMAGE/Pasted image 20261116113205.png]]
-信道利用率
+
 $$
-U = \dfrac{T_D}{T_D+RTT+T_A}
+信道利用率U = \dfrac{T_D}{T_D+RTT+T_A}
 $$
 
 $$
@@ -198,7 +194,16 @@ $$
 考虑到单独发送应答的数据利用率低下，有捎带应答/时延应答
 
 ![[database/IMAGE/Pasted image 20261116122728.png]]
-### **Multipath TCP** 
+#### TCP首部
+- 不同于IP，TCP首部校验和包含数据部分；
+- 数据偏移：4bit，单位4Byte，最大偏移60Byte，即最大首部；
+- MSS:最大报文段数据段长度，累积到该值时发送数据报。
+![[database/IMAGE/Pasted image 20261123105029.png]]
 
+
+
+
+### **Multipath TCP** 
+---同时建立两个TCP子流，实现跨网络的无间断连接。
 
 
