@@ -170,38 +170,47 @@ IP安全数据报
 - 面向无连接，提供单播，广播（定向/受限广播？），组播
 - 鉴 于 IPv4标准MTU值为576字节,所以在进行Internet的UDP编程时.最好将UDP的数据长度控制在548字节 (576-8-20)以内.
 - 伪首部并不存在，只是为了计算校验和虚构出来的；
+>[!quote]- UDP head
 ![[database/drawio/UDP head.drawio|UDP head]]
 ### TCP
 ---Transmission Control Protocol
 面向连接，仅提供单播
 #### 发送重传机制
-
-- ARQ（Automatic Repeat reQuest，自动重传请求协议）
-![[database/IMAGE/Pasted image 20261116112836.png]]
-
-简单，但信道利用率低
-![[database/IMAGE/Pasted image 20261116113205.png]]
-
-$$
-信道利用率U = \dfrac{T_D}{T_D+RTT+T_A}
-$$
-
-$$
-TCP吞吐量 = \dfrac{W\times8bit}{T_D+RTT+T_A}
-$$
-
-
-考虑到单独发送应答的数据利用率低下，有捎带应答/时延应答
-
-![[database/IMAGE/Pasted image 20261116122728.png]]
+> [!quote]-
+> - ARQ（Automatic Repeat reQuest，自动重传请求协议）
+> ![[database/IMAGE/Pasted image 20261116112836.png]]
+> 
+> 简单，但信道利用率低
+> ![[database/IMAGE/Pasted image 20261116113205.png]]
+> 
+> $$
+> 信道利用率U = \dfrac{T_D}{T_D+RTT+T_A}
+> $$
+> 
+> $$
+> TCP吞吐量 = \dfrac{W\times8bit}{T_D+RTT+T_A}
+> $$
+> 
+> 
+> 考虑到单独发送应答的数据利用率低下，有累计确认/延时确认（TCP强制要求功能）
+> 
+> ![[database/IMAGE/Pasted image 20261116122728.png]]
 #### TCP首部
 - 不同于IP，TCP首部校验和包含数据部分；
 - 数据偏移：4bit，单位4Byte，最大偏移60Byte，即最大首部；
-- MSS:最大报文段数据段长度，累积到该值时发送数据报。
+- MSS:Max Segment Size,累积到该值时发送数据报。
+>[!quote]-
 ![[database/IMAGE/Pasted image 20261123105029.png]]
+#### 滑动收发窗口
+>[!quote]- 
+![[database/IMAGE/Pasted image 20261123111831.png|681]]
 
 
+P237
+发送方糊涂窗口综合征
 
+#### 小包发送
+。。。11/23
 
 ### **Multipath TCP** 
 ---同时建立两个TCP子流，实现跨网络的无间断连接。
