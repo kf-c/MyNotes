@@ -220,11 +220,32 @@ P237
 #### 拥塞控制
 --- Congection Control
 ![[database/IMAGE/Pasted image 20261123192331.png|455]]
+1. 慢开始和拥塞避免算法
 
+![[database/IMAGE/Pasted image 20261123193936.png|661]]
 
+##### 网络层成因的拥塞
+AQM---Auto Queue Management
+由于路由器队列满了会直接丢弃，导致丢包，
+#### TCP连接管理
+- TCP连接阶段：建连、传输、放连
+>[!quote]- 三次握手
+![[database/IMAGE/Pasted image 20261123200519.png|499]]
+
+>[!quote]- 四次挥手
+>A finish后，B仍可发送数据，否则可直接发送挥手，即三次挥手。
+>![[database/IMAGE/Pasted image 20261123201126.png]]
 
 
 ### **Multipath TCP** 
 ---同时建立两个TCP子流，实现跨网络的无间断连接。
 
+### 运输层安全协议
 
+$$
+\underbrace{应用层(http)--SSL/TLS}_{\text{https}}-----网络层
+$$
+
+SSL提供的安全服务：
+服务器、客户端鉴别，数据加密。
+![[database/IMAGE/Pasted image 20261123203117.png|449]]
