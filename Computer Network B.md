@@ -157,24 +157,18 @@ IP安全数据报
 
 
 
-![[database/IMAGE/Pasted image 20261109195630.png]]
+![[database/IMAGE/Pasted image 20261109195630.png|149]]
 ## 运输层
 
 >- 可diy；
 >- IP层解决主机之间通信；运输层解决应用进程之间的通信。
 >- 运输层向高层用户屏蔽了下面的网络核心细节（如网络拓扑、路由协议等）;
 
-
-### UDP
----User Datagram Protocol
-- 面向无连接，提供单播，广播（定向/受限广播？），组播
-- 鉴 于 IPv4标准MTU值为576字节,所以在进行Internet的UDP编程时.最好将UDP的数据长度控制在548字节 (576-8-20)以内.
-- 伪首部并不存在，只是为了计算校验和虚构出来的；
->[!quote]- UDP head
-![[database/drawio/UDP head.drawio|UDP head]]
 ### TCP
----Transmission Control Protocol
-面向连接，仅提供单播
+>- Transmission Control Protocol
+>- 面向连接，仅提供单播
+>- 在操作系统内核实现
+>
 #### 发送重传机制
 > [!quote]-
 > - ARQ（Automatic Repeat reQuest，自动重传请求协议）
@@ -205,12 +199,10 @@ IP安全数据报
 >[!quote]- 
 ![[database/IMAGE/Pasted image 20261123111831.png|681]]
 
-
 #### 小包发送
 发送方糊涂窗口综合症：
 应用端把数据逐字节发送到TCP缓存，TCP逐字节发送，有效载荷比例很低；
->[!quote]- 方案：
->![[database/IMAGE/Pasted image 20261123192502.png]]
+>![[database/IMAGE/Pasted image 20261123192502.png|375]]
 
 接收方糊涂窗口综合症：
 ![[database/IMAGE/Pasted image 20261123192555.png|388]]
@@ -222,8 +214,13 @@ IP安全数据报
 ![[database/IMAGE/Pasted image 20261123193936.png|661]]
 
 ##### 网络层成因的拥塞
-AQM---Auto Queue Management
-由于路由器队列满了会直接丢弃，导致丢包，
+
+路由器尾部丢弃策略：
+1. 直接丢弃
+   往往导致连串分组丢失，使多组TCP同时进入拥塞控制的慢开始状态，之后又同时达到高峰，产生拥塞（这在TCP术语中成为全局同步）。
+2. 解决方案：AQM---Active Queue Management
+   eg：RED---Random Early Detection
+   ![[database/IMAGE/Pasted image 20261123230340.png|348]]
 #### TCP连接管理
 - TCP连接阶段：建连、传输、放连
 >[!quote]- 三次握手
@@ -232,7 +229,6 @@ AQM---Auto Queue Management
 >[!quote]- 四次挥手
 >A finish后，B仍可发送数据，否则可直接发送挥手，即三次挥手。
 >![[database/IMAGE/Pasted image 20261123201126.png]]
-
 
 ### **Multipath TCP** 
 ---同时建立两个TCP子流，实现跨网络的无间断连接。
@@ -246,3 +242,17 @@ $$
 SSL提供的安全服务：
 服务器、客户端鉴别，数据加密。
 ![[database/IMAGE/Pasted image 20261123203117.png|449]]
+
+
+### UDP
+---User Datagram Protocol
+- 面向无连接，提供单播，广播（定向/受限广播？），组播
+- 鉴 于 IPv4标准MTU值为576字节,所以在进行Internet的UDP编程时.最好将UDP的数据长度控制在548字节 (576-8-20)以内.
+- 伪首部并不存在，只是为了计算校验和虚构出来的；
+- 区别于TCP：面向报文、无确认重传、无拥塞控制、加上首部就直接发。
+>[!quote]- UDP head
+![[database/drawio/UDP head.drawio|UDP head]]
+
+
+
+
