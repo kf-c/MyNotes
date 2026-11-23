@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "信号处理/通信原理.md",
+                "file": "Computer Network B.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "通信原理"
+              "title": "Computer Network B"
             }
           },
           {
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "信号处理/通信原理.md",
+                "file": "Computer Network B.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -219,6 +219,12 @@
   },
   "active": "bf043eccedfa4369",
   "lastOpenFiles": [
+    "database/IMAGE/Pasted image 20261123192555.png",
+    "database/IMAGE/Pasted image 20261123192502.png",
+    "database/IMAGE/Pasted image 20261123192439.png",
+    "database/IMAGE/Pasted image 20261123192331.png",
+    "随笔.md",
+    "信号处理/通信原理.md",
     "database/IMAGE/Pasted image 20261123161012.png",
     "database/IMAGE/Pasted image 20261123160243.png",
     "database/IMAGE/Pasted image 20261123160236.png",
@@ -226,15 +232,9 @@
     "database/IMAGE/Pasted image 20261123154352.png",
     "database/IMAGE/Pasted image 20261123153953.png",
     "database/IMAGE/Pasted image 20261123153946.png",
-    "database/IMAGE/Pasted image 20261123153920.png",
     "信号处理/sheet.md",
-    "信号处理/通信原理.md",
     "Computer Network B.md",
-    "database/IMAGE/Pasted image 20261123111831.png",
-    "database/IMAGE/Pasted image 20261123105029.png",
-    "database/IMAGE/Pasted image 20261123105002.png",
     "Antigravity Instructions.md",
-    "随笔.md",
     "信号处理/随机信号分析.md",
     "信号处理/pluto/Matlab.md",
     "信号处理/pluto/实验三报告.md",

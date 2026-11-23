@@ -207,10 +207,22 @@ IP安全数据报
 
 
 P237
-发送方糊涂窗口综合征
+发送方糊涂窗口综合征，
 
 #### 小包发送
-。。。11/23
+发送方糊涂窗口综合症：
+应用端把数据逐字节发送到TCP缓存，TCP逐字节发送，有效载荷比例很低；
+>[!quote]- 方案：
+>![[database/IMAGE/Pasted image 20261123192502.png]]
+
+接收方糊涂窗口综合症：
+![[database/IMAGE/Pasted image 20261123192555.png|388]]
+#### 拥塞控制
+--- Congection Control
+![[database/IMAGE/Pasted image 20261123192331.png|455]]
+
+
+
 
 ### **Multipath TCP** 
 ---同时建立两个TCP子流，实现跨网络的无间断连接。
