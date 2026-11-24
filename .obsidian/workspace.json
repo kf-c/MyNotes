@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "信号处理/随机信号分析.md",
+                "file": "信号处理/FT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "随机信号分析"
+              "title": "FT"
             }
           },
           {
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "信号处理/随机信号分析.md",
+                "file": "信号处理/FT.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -204,6 +204,7 @@
   },
   "active": "7954e5758e3d0985",
   "lastOpenFiles": [
+    "信号处理/随机信号分析.md",
     "Antigravity Instructions.md",
     "信号处理/sheet.md",
     "未命名/何意味.md",
@@ -224,7 +225,6 @@
     "database/IMAGE/Pasted image 20261123192331.png",
     "随笔.md",
     "信号处理/通信原理.md",
-    "信号处理/随机信号分析.md",
     "信号处理/pluto/Matlab.md",
     "信号处理/pluto/实验三报告.md",
     "信号处理/pluto",
